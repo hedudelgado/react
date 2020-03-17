@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image storyshots Page Status PageStatus 1`] = `
+<div
+  className="wb-soft--base wb-container"
+>
+  <div
+    className="wb-typography"
+  >
+    <div
+      aria-live="off"
+      className="pi-page-status pi-page-status-warning"
+      data-test="error-warning"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <h5
+        className="wb-heading wb-heading--h5 title"
+      >
+        Error, oh dear...
+      </h5>
+      <div
+        className="message"
+      >
+        Something went wrong when we tried to load the results.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Page Status Preview 1`] = `
+<div
+  className="wb-soft--base wb-container"
+>
+  <div
+    className="wb-typography"
+  >
+    <h1
+      className="mt4"
+    >
+      Page Status
+    </h1>
+    <h3
+      className="mt3"
+    >
+      Warning
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-page-status pi-page-status-warning"
+      data-test="error-warning"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <h5
+        className="wb-heading wb-heading--h5 title"
+      >
+        Error, oh dear...
+      </h5>
+      <div
+        className="message"
+      >
+        Something went wrong when we tried to load the results.
+      </div>
+    </div>
+    <h3
+      className="mt3"
+    >
+      Error
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-page-status pi-page-status-error"
+      data-test="error-error"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <h5
+        className="wb-heading wb-heading--h5 title"
+      >
+        Error, oh dear...
+      </h5>
+      <div
+        className="message"
+      >
+        Something went wrong when we tried to load the results.
+      </div>
+    </div>
+  </div>
+</div>
+`;

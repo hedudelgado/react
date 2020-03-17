@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Component Renders Checkbox Element should render the component 1`] = `
+<div
+  className="wb-form-item wb-checkbox wb-checkbox__white wb-form-item--clean mb3"
+>
+  <input
+    className=""
+    id="test"
+    type="checkbox"
+  />
+  <label
+    htmlFor="test"
+  >
+    test
+  </label>
+</div>
+`;

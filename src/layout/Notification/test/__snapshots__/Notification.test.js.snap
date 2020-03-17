@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification component should show the component 1`] = `
+<BaseStyle
+  aria-live="polite"
+  className="pi-notification priority-2 priority-2-warning"
+  component="div"
+  role="region"
+>
+  <Icon
+    className="icon"
+    icon="disc-info-new"
+  />
+  <div
+    className="content"
+  >
+    This is a notification
+  </div>
+</BaseStyle>
+`;

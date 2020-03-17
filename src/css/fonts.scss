@@ -1,0 +1,8 @@
+@import "variables";
+
+@font-face {
+  font-family: 'wb-icons';
+  src: url($wb-icon-path + "icomoon.woff") format("woff"), url($wb-icon-path + "icomoon.ttf") format("truetype"), url($wb-icon-path + "icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

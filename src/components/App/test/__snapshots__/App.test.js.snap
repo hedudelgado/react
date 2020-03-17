@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App shell Layout should match snapshot 1`] = `
+<div
+  data-test="AccountSettings"
+>
+  <BaseStyle
+    className="wb-typography app-container"
+    component="div"
+  >
+    <Connect(ComponentToggler)
+      edit={[Function]}
+      view={[Function]}
+      viewName="USER_DETAILS_VIEW"
+    />
+    <Connect(ComponentToggler)
+      edit={[Function]}
+      view={[Function]}
+      viewName="PASSWORD_VIEW"
+    />
+    <Connect(ComponentToggler)
+      edit={[Function]}
+      view={[Function]}
+      viewName="PAYMENT_CARD_VIEW"
+    />
+    <Connect(RegularGuests) />
+    <Connect(ComponentToggler)
+      edit={[Function]}
+      view={[Function]}
+      viewName="ROOM_REQUIREMENTS_VIEW"
+    />
+    <Connect(ComponentToggler)
+      edit={[Function]}
+      view={[Function]}
+      viewName="EXTRAS_PREFERENCES_VIEW"
+    />
+    <Connect(DeleteCustomer) />
+  </BaseStyle>
+</div>
+`;

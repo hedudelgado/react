@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image storyshots Payment Card With Card 1`] = `
+<div
+  className="wb-soft--base wb-container"
+>
+  <div
+    className="wb-typography"
+  >
+    <section
+      className="component-container"
+    >
+      <h4
+        className="wb-heading wb-heading--h4 pi-color-greyscale-darkest"
+      >
+        Payment
+      </h4>
+      <div
+        className="basic-spacer mb3"
+      >
+        <div
+          className="card-layout p2 mt1 border rounded wb-push--bottom"
+        >
+          <div
+            className="right-align bold pb1"
+          >
+            Visa Credit
+          </div>
+          <div
+            className="right-align"
+          >
+            •••• •••• •••• 1111
+          </div>
+          <div
+            className="clearfix col-12 card-details relative"
+          >
+            <div
+              className="col col-10"
+            >
+              <div
+                className="pi-color-greyscale-dark"
+              >
+                Expiry date
+              </div>
+              <div
+                className="pb1"
+              >
+                07/23
+              </div>
+              <div>
+                dwa
+              </div>
+            </div>
+            <div
+              className="col col-2 right-align"
+            >
+              <img
+                alt="Visa Credit"
+                className="block right absolute bottom-0 right-0"
+                src="https://www.premierinn.com/content/dam/global/booking/VC.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          className="wb-text-btn wb-text-btn--red wb-text-btn--underline block wb-push--bottom"
+          onClick={[Function]}
+          type="button"
+        >
+          Delete card
+        </button>
+        <button
+          className="wb-btn wb-btn--quaternary wb-btn--small"
+          onClick={[Function]}
+          type="button"
+        >
+          Add new card
+        </button>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Payment Card Without Card 1`] = `
+<div
+  className="wb-soft--base wb-container"
+>
+  <div
+    className="wb-typography"
+  >
+    <section
+      className="component-container"
+    >
+      <h4
+        className="wb-heading wb-heading--h4 pi-color-greyscale-darkest"
+      >
+        Payment
+      </h4>
+      <p
+        className="font-size--base mb3"
+        data-test="no-guests-message"
+      >
+        Save your card details for quicker, easier booking next time.
+      </p>
+      <button
+        className="wb-btn wb-btn--secondary wb-btn--small wb-btn--full-width"
+        onClick={[Function]}
+        type="button"
+      >
+        Add payment card
+      </button>
+    </section>
+  </div>
+</div>
+`;

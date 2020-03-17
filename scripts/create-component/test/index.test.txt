@@ -1,0 +1,21 @@
+import React from 'react';
+import { shallow } from 'enzyme';
+import $CNAME from '../index';
+
+jest.mock('../$CNAME', () => ({
+  __esModule: true,
+  default: jest.fn(),
+}));
+
+describe('$CNAME Component interface', () => {
+  beforeEach(() => {
+    jest.clearAllMocks();
+  });
+  afterAll(() => {
+    jest.restoreAllMocks();
+  });
+  it('Should export the main component', () => {
+    shallow(<$CNAME />);
+    expect($CNAME).toHaveBeenCalled();
+  });
+});

@@ -1,0 +1,61 @@
+{
+  "sessionId": "b7o4HMeLxWQn8YzG",
+  "contactDetail": {
+    "title": "Miss",
+    "firstName": "Rachelle",
+    "lastName": "Ragasa",
+    "email": "some_email@email.com",
+    "telephone": "+441234567890",
+    "mobile": "+441234567890",
+    "nationality": "",
+    "passport": { "number": "", "countryOfIssue": "" },
+    "carRegistration": "",
+    "address": {
+      "line1": "120 HOLBORN",
+      "line2": "LONDON",
+      "line3": "",
+      "line4": "",
+      "line5": "",
+      "postCode": "EC1N 2TD",
+      "countryCode": "GB",
+      "type": "HOME",
+      "companyName": ""
+    }
+  },
+  "paymentPreference": {
+    "electronicInvoiceRequired": true,
+    "paymentCard": {
+      "cardType": "VI",
+      "cardNumber": "************1111",
+      "expiryDate": "06/23",
+      "cardHolderName": "Test Card"
+    }
+  },
+  "additionalGuests": [
+    {
+      "title": "Mr",
+      "firstName": "Henry",
+      "lastName": "Holland",
+      "email": "hello.fresh@mailinator.com",
+      "telephone": "1234567890",
+      "mobile": "+441234567890",
+      "nationality": "GB",
+      "carRegistration": ""
+    }
+  ],
+  "bookingPreference": {
+    "roomRequirements": {
+      "type": "FAM",
+      "adults": 2,
+      "children": 1,
+      "cotRequired": false,
+      "hotelBrand": "PI"
+    },
+    "foodPreference": 11,
+    "wantSmsConfirmations": false
+  },
+  "companyName": "Whitbread Plc",
+  "companyId": "",
+  "businessUse": false,
+  "guestHistoryNumber": "G34614535"
+}

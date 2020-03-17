@@ -1,0 +1,37 @@
+@import "../../css/main";
+
+.pi-page-status {
+  text-align: center;
+
+  .title {
+    margin: 12px 0 5px 0;
+  }
+
+  &.pi-page-status-warning, &.pi-page-status-error {
+    .icon {
+      display: block;
+      height: 61px;
+      background-size: 45px 61px;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      &:before {
+        font-family: 'wb-icons';
+        font-size: 4rem;
+        content: '\e95f';
+      }
+    }
+  }
+
+  &.pi-page-status-warning {
+    .icon {
+      color: $pi-notification-warning-dark;
+    }
+  }
+
+  &.pi-page-status-error {
+    .icon {
+      color: $pi-notification-error-dark;
+    }
+  }
+}

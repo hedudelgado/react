@@ -1,0 +1,186 @@
+@import "../../css/main";
+
+.pi-notification {
+  position: relative;
+  padding: 10px 10px 10px 41px;
+  color: $pi-notification-black;
+  font-size: $font-size--s;
+
+  .icon {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+  }
+
+  .title {
+    display: block;
+    font-weight: bold;
+    font-size: $font-size--s;
+    margin-top: -2px;
+  }
+
+  a, a:hover, a:visited, a:active {
+    color: $pi-notification-black;
+    text-decoration: underline;
+  }
+
+  &.priority-1 {
+    background-color: $pi-notification-error-light;
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      padding-top: 0;
+      background-color: $pi-notification-error-dark;
+
+      &:before {
+        align-self: center;
+        font-family: 'wb-icons';
+        font-size: 2rem;
+        color: $pi-notification-white;
+        content: '\e95f';
+      }
+    }
+
+    .error-link {
+      color: $pi-notification-error-dark;
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: $font-size--base;
+    }
+  }
+
+  &.priority-2 {
+    &-warning {
+      background-color: $pi-notification-warning-light;
+
+      .icon {
+        background-color: $pi-notification-warning-dark;
+      }
+    }
+
+    &-error {
+      background-color: $pi-notification-error-light;
+
+      .icon {
+        background-color: $pi-notification-error-dark;
+      }
+    }
+
+    &-info {
+      background-color: $pi-notification-info-light;
+
+      .icon {
+        background-color: $pi-notification-info-dark;
+      }
+    }
+
+    &-success {
+      background-color: $pi-notification-success-light;
+
+      .icon {
+        background-color: $pi-notification-success-dark;
+      }
+    }
+
+    .icon {
+      padding-top: 5px;
+    }
+  }
+
+  &.priority-1, &.priority-2 {
+    display: flex;
+    padding: 0;
+
+    .content {
+      align-self: center;
+      padding: 10px;
+    }
+
+    .title {
+      margin-top: 0;
+    }
+
+    .icon {
+      position: relative;
+      top: 0;
+      left: 0;
+      text-align: center;
+      flex-basis: 50px;
+      min-width: 50px;
+      font-size: $font-size--xl;
+      color: $pi-notification-white;
+    }
+  }
+
+  &.priority-2, &.priority-3 {
+    &-warning {
+      background-color: $pi-notification-warning-light;
+    }
+
+    &-error {
+      background-color: $pi-notification-error-light;
+    }
+
+    &-info {
+      background-color: $pi-notification-info-light;
+    }
+
+    &-success {
+      background-color: $pi-notification-success-light;
+    }
+  }
+
+  &.priority-4 {
+    &-warning {
+      border: 1px solid $pi-notification-warning-dark;
+    }
+
+    &-error {
+      border: 1px solid $pi-notification-error-dark;
+    }
+
+    &-info {
+      border: 1px solid $pi-notification-info-dark;
+    }
+
+    &-success {
+      border: 1px solid $pi-notification-success-dark;
+    }
+  }
+
+  &.priority-3, &.priority-4, &.priority-5 {
+    &-warning {
+      .icon {
+        color: $pi-notification-warning-dark;
+      }
+    }
+
+    &-error {
+      .icon {
+        color: $pi-notification-error-dark;
+      }
+    }
+
+    &-info {
+      .icon {
+        color: $pi-notification-info-dark;
+      }
+    }
+
+    &-success {
+      .icon {
+        color: $pi-notification-success-dark;
+      }
+    }
+  }
+
+  &.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+}

@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExtrasPreferencesForm Component Renders ExtrasPreferencesForm Component Elements should render the component 1`] = `
+<form
+  data-test="extras-preferences-form"
+  name="extras-preferences-form"
+  onSubmit={[MockFunction]}
+>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  />
+  <RadioGroup>
+    <RadioItem
+      field={
+        Object {
+          "name": "mealOptions",
+          "onBlur": [MockFunction],
+          "onChange": [MockFunction],
+          "value": "17",
+        }
+      }
+      id="11"
+      key="11"
+      label="Premier Inn Breakfast"
+      name="mealOptions"
+      subLabels={Array []}
+      value="11"
+    />
+    <RadioItem
+      field={
+        Object {
+          "name": "mealOptions",
+          "onBlur": [MockFunction],
+          "onChange": [MockFunction],
+          "value": "17",
+        }
+      }
+      id="12"
+      key="12"
+      label="Continental Breakfast"
+      name="mealOptions"
+      subLabels={Array []}
+      value="12"
+    />
+    <RadioItem
+      field={
+        Object {
+          "name": "mealOptions",
+          "onBlur": [MockFunction],
+          "onChange": [MockFunction],
+          "value": "17",
+        }
+      }
+      id="17"
+      key="17"
+      label="Meal Deal"
+      name="mealOptions"
+      subLabels={Array []}
+      value="17"
+    />
+    <RadioItem
+      field={
+        Object {
+          "name": "mealOptions",
+          "onBlur": [MockFunction],
+          "onChange": [MockFunction],
+          "value": "17",
+        }
+      }
+      id="0"
+      key="0"
+      label="No Meals"
+      name="mealOptions"
+      subLabels={Array []}
+      value="0"
+    />
+  </RadioGroup>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  />
+  <RadioGroup>
+    <RadioItem
+      field={
+        Object {
+          "name": "invoiceOptions",
+          "onBlur": [MockFunction],
+          "onChange": [MockFunction],
+          "value": undefined,
+        }
+      }
+      id="emailInvoice"
+      name="invoiceOptions"
+      subLabels={Array []}
+      value="true"
+    />
+    <RadioItem
+      field={
+        Object {
+          "name": "invoiceOptions",
+          "onBlur": [MockFunction],
+          "onChange": [MockFunction],
+          "value": undefined,
+        }
+      }
+      id="checkInInvoice"
+      name="invoiceOptions"
+      subLabels={Array []}
+      value="false"
+    />
+  </RadioGroup>
+  <Button
+    className="wb-push--bottom"
+    color="primary"
+    data-test="save-changes"
+    fullWidth={false}
+    href={null}
+    onClick={[Function]}
+    submit={false}
+    type="submit"
+    variant="button"
+  >
+    Save changes
+  </Button>
+  <Button
+    className="underline block"
+    color="default"
+    data-test="closeForm"
+    fullWidth={true}
+    href={null}
+    onClick={[Function]}
+    submit={false}
+    variant="text"
+  >
+    Cancel changes
+  </Button>
+</form>
+`;

@@ -1,0 +1,13 @@
+import React from 'react';
+import { shallow } from 'enzyme';
+
+import $CNAME from '../$CNAME';
+
+describe('$CNAME Component', () => {
+  describe('Renders $CNAME Element', () => {
+    it('should render the component', () => {
+      const wrapper = shallow(<$CNAME />);
+      expect(wrapper).not.toBeEmptyRender();
+    });
+  });
+});

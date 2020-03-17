@@ -1,0 +1,65 @@
+# Enable Single Page Application
+[[redirects]]
+  from = "/"
+  to = "/en/?sessionExpired=:value"
+  query = {sessionExpired = ":value"}
+  status = 301
+
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 301
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en.html?sessionExpired=:value"
+  query = {sessionExpired = ":value"}
+  status = 200
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/*"
+  to = "/de.html"
+  status = 200
+
+# Header component
+[[redirects]]
+  from = "/header_lib.js"
+  to = "/header/header_lib.js"
+  status = 200
+
+[[redirects]]
+  from = "/header_style.css"
+  to = "/header/header_style.css"
+  status = 200
+
+[[redirects]]
+  from = "/header_app.js"
+  to = "/header/header_app.js"
+  status = 200
+
+[[redirects]]
+  from = "/authentication.html"
+  to = "/header/authentication.html"
+  status = 200
+
+[[redirects]]
+  from = "/authentication.js"
+  to = "/header/authentication.js"
+  status = 200
+
+[[redirects]]
+  from = "/auth0.js"
+  to = "/header/auth0.js"
+  status = 200
+
+# Add storybook path
+[[redirects]]
+  from = "/storybook/*"
+  to = "/storybook/index.html"
+  status = 200

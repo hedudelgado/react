@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteModal Component DeleteModal should match snapshot 1`] = `
+<Fragment>
+  <Typography
+    component="h5"
+    mt="1"
+  >
+    Delete guest
+  </Typography>
+  <Typography
+    component="p"
+    size="s"
+  >
+    Are you sure you want to delete this guest?
+  </Typography>
+  <Button
+    className="mt2 mb2"
+    color="primary"
+    data-test="delete-button"
+    fullWidth={true}
+    href={null}
+    onClick={[MockFunction]}
+    submit={false}
+    type="button"
+    variant="button"
+  >
+    Delete guest
+  </Button>
+  <Button
+    className="underline"
+    color="default"
+    data-test="cancel-button"
+    fullWidth={false}
+    href={null}
+    onClick={[MockFunction]}
+    submit={false}
+    type="button"
+    variant="text"
+  >
+    Cancel changes
+  </Button>
+</Fragment>
+`;

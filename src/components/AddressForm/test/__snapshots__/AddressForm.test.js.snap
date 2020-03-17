@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressForm Component Renders AddressForm Element should match snapshot 1`] = `
+<Fragment>
+  <Typography
+    className="pi-color-greyscale-darkest mt0 mb1"
+    component="h6"
+  />
+  <Input
+    id="postCode"
+    mb="wb-push-middle--bottom"
+    name="postCode"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    sessioncamhide={true}
+    type="text"
+  />
+  <Button
+    className="wb-push--bottom wb-btn--full-width"
+    color="secondary"
+    data-test="find-postcode"
+    fullWidth={false}
+    href={null}
+    onClick={[Function]}
+    submit={false}
+    variant="button"
+  >
+    Find new address
+  </Button>
+  <RadioGroup>
+    <RadioItem
+      field={
+        Object {
+          "name": "type",
+          "onBlur": [MockFunction],
+          "onChange": [MockFunction],
+          "value": "HOME",
+        }
+      }
+      id="homeAddress"
+      label="Home address"
+      name="type"
+      sessioncamhide={true}
+      subLabels={Array []}
+      value="HOME"
+    />
+    <RadioItem
+      field={
+        Object {
+          "name": "type",
+          "onBlur": [MockFunction],
+          "onChange": [MockFunction],
+          "value": "HOME",
+        }
+      }
+      id="businessAddress"
+      label="Business address"
+      name="type"
+      sessioncamhide={true}
+      subLabels={Array []}
+      value="BUSINESS"
+    />
+  </RadioGroup>
+  <Input
+    id="line1"
+    mb="wb-push-middle--bottom"
+    name="line1"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    required={true}
+    sessioncamhide={true}
+    type="text"
+  />
+  <Input
+    id="line2"
+    mb="wb-push-middle--bottom"
+    name="line2"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    sessioncamhide={true}
+    type="text"
+  />
+  <Input
+    id="line3"
+    mb="wb-push-middle--bottom"
+    name="line3"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    sessioncamhide={true}
+    type="text"
+  />
+  <Input
+    id="line4"
+    mb="wb-push-middle--bottom"
+    name="line4"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    sessioncamhide={true}
+    type="text"
+  />
+  <Input
+    id="postCode"
+    mb="wb-push-middle--bottom"
+    name="postCode"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    sessioncamhide={true}
+    type="text"
+  />
+  <Select
+    flagImg="/content/dam/global/flags/United-Kingdom.png"
+    halfWidth={false}
+    hideIcon={false}
+    hideMessage={false}
+    id="countryCode"
+    name="countryCode"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder=""
+    sessioncamhide={true}
+    value="GB"
+  >
+    <option
+      key="GB"
+      label="United Kingdom (the)"
+      value="GB"
+    >
+      United Kingdom (the)
+    </option>
+    <option
+      key="D"
+      label="Germany"
+      value="D"
+    >
+      Germany
+    </option>
+    <option
+      key="GR"
+      label="Greece"
+      value="GR"
+    >
+      Greece
+    </option>
+    <option
+      key="TEST"
+      label="Test"
+      value="TEST"
+    >
+      Test
+    </option>
+  </Select>
+</Fragment>
+`;

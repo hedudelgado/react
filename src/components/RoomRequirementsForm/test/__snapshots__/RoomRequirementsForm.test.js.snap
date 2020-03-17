@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoomRequirementsForm Component Renders RoomRequirementsForm Component Elements should render the component 1`] = `
+<form
+  data-test="room-requirements-form"
+  name="room-requirements-form"
+  onSubmit={[MockFunction]}
+>
+  <Select
+    defaultValue={0}
+    halfWidth={false}
+    hideIcon={false}
+    hideMessage={false}
+    id="adults"
+    name="adults"
+    onBlur={[MockFunction]}
+    onChange={[Function]}
+    placeholder=""
+  >
+    <option
+      key="1"
+      value={1}
+    >
+      1
+    </option>
+    <option
+      key="2"
+      value={2}
+    >
+      2
+    </option>
+  </Select>
+  <Select
+    defaultValue={2}
+    halfWidth={false}
+    hideIcon={false}
+    hideMessage={false}
+    id="children"
+    name="children"
+    onBlur={[MockFunction]}
+    onChange={[Function]}
+    placeholder=""
+  >
+    <option
+      key="0"
+      value={0}
+    >
+      0
+    </option>
+    <option
+      key="1"
+      value={1}
+    >
+      1
+    </option>
+    <option
+      key="2"
+      value={2}
+    >
+      2
+    </option>
+  </Select>
+  <Select
+    defaultValue={false}
+    halfWidth={false}
+    hideIcon={false}
+    hideMessage={false}
+    id="cotRequired"
+    name="cotRequired"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder=""
+  >
+    <option
+      value="true"
+    />
+    <option
+      value="false"
+    />
+  </Select>
+  <RoomTypeSelect
+    defaultValue="DB"
+    dictionary={
+      Object {
+        "roomrequirements.button.cancel": "Cancel changes",
+        "roomrequirements.button.save": "Save changes",
+        "roomrequirements.title.edit": "Edit room requirements",
+        "roomrequirements.type.accessible": "Accessible",
+        "roomrequirements.type.double": "Double",
+        "roomrequirements.type.family": "Family",
+        "roomrequirements.type.single": "Single",
+      }
+    }
+    hasChildren={true}
+    hasMultipleAdults={false}
+    id="type"
+    name="type"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    type={
+      Array [
+        Object {
+          "code": "DB",
+          "dictionaryKey": "roomrequirements.type.double",
+        },
+        Object {
+          "code": "DIS",
+          "dictionaryKey": "roomrequirements.type.accessible",
+        },
+        Object {
+          "code": "FAM",
+          "dictionaryKey": "roomrequirements.type.family",
+        },
+        Object {
+          "code": "SB",
+          "dictionaryKey": "roomrequirements.type.single",
+        },
+      ]
+    }
+  />
+  <Button
+    className="wb-push--bottom"
+    color="primary"
+    fullWidth={false}
+    href={null}
+    id="save-changed"
+    onClick={[Function]}
+    submit={false}
+    type="submit"
+    variant="button"
+  >
+    Save changes
+  </Button>
+  <Button
+    className="underline block"
+    color="default"
+    data-test="closeForm"
+    fullWidth={true}
+    href={null}
+    onClick={[Function]}
+    submit={false}
+    variant="text"
+  >
+    Cancel changes
+  </Button>
+</form>
+`;

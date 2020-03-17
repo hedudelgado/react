@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoomTypeSelect Component RoomTypeSelect Component Interface should display every room option except for Family and Twin if one adults and no children have been selected 1`] = `
+<Select
+  defaultValue="DB"
+  halfWidth={false}
+  hideIcon={false}
+  hideMessage={false}
+  id="test"
+  label="label"
+  name="test"
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  placeholder=""
+  touched={true}
+>
+  <option
+    key="DB"
+    value="DB"
+  >
+    Double
+  </option>
+  <option
+    key="DIS"
+    value="DIS"
+  >
+    Accessible
+  </option>
+  <option
+    key="SB"
+    value="SB"
+  >
+    Single
+  </option>
+</Select>
+`;
+
+exports[`RoomTypeSelect Component RoomTypeSelect Component Interface should display every room option except for Family if no children has been selected 1`] = `
+<Select
+  defaultValue="DB"
+  halfWidth={false}
+  hideIcon={false}
+  hideMessage={false}
+  id="test"
+  label="label"
+  name="test"
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  placeholder=""
+  touched={true}
+>
+  <option
+    key="DB"
+    value="DB"
+  >
+    Double
+  </option>
+  <option
+    key="DIS"
+    value="DIS"
+  >
+    Accessible
+  </option>
+  <option
+    key="SB"
+    value="SB"
+  >
+    Single
+  </option>
+</Select>
+`;
+
+exports[`RoomTypeSelect Component RoomTypeSelect Component Interface should display every room option except for Single and Family if multiple adults and no children have been selected 1`] = `
+<Select
+  defaultValue="DB"
+  halfWidth={false}
+  hideIcon={false}
+  hideMessage={false}
+  id="test"
+  label="label"
+  name="test"
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  placeholder=""
+  touched={true}
+>
+  <option
+    key="DB"
+    value="DB"
+  >
+    Double
+  </option>
+  <option
+    key="TWIN"
+    value="TWIN"
+  />
+  <option
+    key="DIS"
+    value="DIS"
+  >
+    Accessible
+  </option>
+</Select>
+`;
+
+exports[`RoomTypeSelect Component RoomTypeSelect Component Interface should only display Family type if 1 or more children has been selected 1`] = `
+<Select
+  defaultValue="DB"
+  halfWidth={false}
+  hideIcon={false}
+  hideMessage={false}
+  id="test"
+  label="label"
+  name="test"
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  placeholder=""
+  touched={true}
+>
+  <option
+    key="FAM"
+    value="FAM"
+  >
+    Family
+  </option>
+</Select>
+`;
+
+exports[`RoomTypeSelect Component RoomTypeSelect Component Interface should render the component 1`] = `
+<Select
+  halfWidth={false}
+  hideIcon={false}
+  hideMessage={false}
+  id="test"
+  label="label"
+  name="test"
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  placeholder=""
+  touched={true}
+>
+  <option
+    key="DB"
+    value="DB"
+  >
+    Double
+  </option>
+  <option
+    key="DIS"
+    value="DIS"
+  >
+    Accessible
+  </option>
+  <option
+    key="SB"
+    value="SB"
+  >
+    Single
+  </option>
+</Select>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hyperlink component should render the component 1`] = `
+<a
+  className=""
+  href="https://www.premierinn.com"
+>
+  This is a hyperlink
+</a>
+`;

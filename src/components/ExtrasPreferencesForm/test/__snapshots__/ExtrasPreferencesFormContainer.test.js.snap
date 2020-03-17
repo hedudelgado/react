@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExtrasPreferences Component ExtrasPreferences form default values should default to no meals option for new registered accounts 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "dirty": false,
+      "errors": Object {},
+      "handleBlur": [Function],
+      "handleChange": [Function],
+      "handleReset": [Function],
+      "handleSubmit": [Function],
+      "initialValues": Object {
+        "invoiceOptions": "false",
+        "mealOptions": "0",
+        "wifiOptions": "false",
+      },
+      "isSubmitting": false,
+      "isValid": false,
+      "isValidating": false,
+      "registerField": [Function],
+      "resetForm": [Function],
+      "setError": [Function],
+      "setErrors": [Function],
+      "setFieldError": [Function],
+      "setFieldTouched": [Function],
+      "setFieldValue": [Function],
+      "setFormikState": [Function],
+      "setStatus": [Function],
+      "setSubmitting": [Function],
+      "setTouched": [Function],
+      "setValues": [Function],
+      "status": undefined,
+      "submitCount": 0,
+      "submitForm": [Function],
+      "touched": Object {},
+      "unregisterField": [Function],
+      "validate": undefined,
+      "validateField": [Function],
+      "validateForm": [Function],
+      "validateOnBlur": true,
+      "validateOnChange": true,
+      "validationSchema": undefined,
+      "values": Object {
+        "invoiceOptions": "false",
+        "mealOptions": "0",
+        "wifiOptions": "false",
+      },
+    }
+  }
+>
+  <ExtrasPreferencesForm
+    dictionary={
+      Object {
+        "extraspreferences.edit.title": "Edit extras preferences",
+      }
+    }
+    dirty={false}
+    errors={Object {}}
+    handleBlur={[Function]}
+    handleChange={[Function]}
+    handleReset={[Function]}
+    handleSubmit={[Function]}
+    initialValues={
+      Object {
+        "invoiceOptions": "false",
+        "mealOptions": "0",
+        "wifiOptions": "false",
+      }
+    }
+    isSubmitting={false}
+    isValid={false}
+    isValidating={false}
+    profile={
+      Object {
+        "additionalGuests": Array [
+          Object {
+            "carRegistration": "",
+            "email": "mac@test.com",
+            "firstName": "Mac",
+            "lastName": "Donalds",
+            "mobile": "+441111111111",
+            "nationality": "RP",
+            "telephone": "1111111111",
+            "title": "Mr",
+          },
+        ],
+        "businessUse": false,
+        "companyId": "",
+        "companyName": "Pareto Law",
+        "contactDetail": Object {
+          "address": Object {
+            "companyName": "Whitbread",
+            "countryCode": "GB",
+            "line1": "120 Holborn",
+            "line2": "",
+            "line3": "",
+            "line4": "LONDON",
+            "line5": "",
+            "postCode": "EC1N 2TD",
+            "type": "BUSINESS",
+          },
+          "carRegistration": "",
+          "email": "test@whitbread.com",
+          "firstName": "Test",
+          "lastName": "Test",
+          "mobile": "+351222222222",
+          "nationality": "GB",
+          "passport": Object {
+            "countryOfIssue": "",
+            "number": "",
+          },
+          "telephone": "111111111",
+          "title": "Mrs",
+        },
+        "guestHistoryNumber": "G14187551",
+        "sessionId": "zdiKE1MflNUmdXAS",
+      }
+    }
+    registerField={[Function]}
+    resetForm={[Function]}
+    setEditView={[MockFunction]}
+    setError={[Function]}
+    setErrors={[Function]}
+    setFieldError={[Function]}
+    setFieldTouched={[Function]}
+    setFieldValue={[Function]}
+    setFormikState={[Function]}
+    setStatus={[Function]}
+    setSubmitting={[Function]}
+    setTouched={[Function]}
+    setValues={[Function]}
+    submitCount={0}
+    submitForm={[Function]}
+    touched={Object {}}
+    unregisterField={[Function]}
+    validateField={[Function]}
+    validateForm={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+    values={
+      Object {
+        "invoiceOptions": "false",
+        "mealOptions": "0",
+        "wifiOptions": "false",
+      }
+    }
+  />
+</ContextProvider>
+`;
+
+exports[`ExtrasPreferences Component Renders ExtrasPreferences Component Elements should render the component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "dirty": false,
+      "errors": Object {},
+      "handleBlur": [Function],
+      "handleChange": [Function],
+      "handleReset": [Function],
+      "handleSubmit": [Function],
+      "initialValues": Object {
+        "invoiceOptions": "true",
+        "mealOptions": "11",
+        "wifiOptions": "true",
+      },
+      "isSubmitting": false,
+      "isValid": false,
+      "isValidating": false,
+      "registerField": [Function],
+      "resetForm": [Function],
+      "setError": [Function],
+      "setErrors": [Function],
+      "setFieldError": [Function],
+      "setFieldTouched": [Function],
+      "setFieldValue": [Function],
+      "setFormikState": [Function],
+      "setStatus": [Function],
+      "setSubmitting": [Function],
+      "setTouched": [Function],
+      "setValues": [Function],
+      "status": undefined,
+      "submitCount": 0,
+      "submitForm": [Function],
+      "touched": Object {},
+      "unregisterField": [Function],
+      "validate": undefined,
+      "validateField": [Function],
+      "validateForm": [Function],
+      "validateOnBlur": true,
+      "validateOnChange": true,
+      "validationSchema": undefined,
+      "values": Object {
+        "invoiceOptions": "true",
+        "mealOptions": "11",
+        "wifiOptions": "true",
+      },
+    }
+  }
+>
+  <ExtrasPreferencesForm
+    dictionary={
+      Object {
+        "extraspreferences.edit.title": "Edit extras preferences",
+      }
+    }
+    dirty={false}
+    errors={Object {}}
+    handleBlur={[Function]}
+    handleChange={[Function]}
+    handleReset={[Function]}
+    handleSubmit={[Function]}
+    initialValues={
+      Object {
+        "invoiceOptions": "true",
+        "mealOptions": "11",
+        "wifiOptions": "true",
+      }
+    }
+    isSubmitting={false}
+    isValid={false}
+    isValidating={false}
+    profile={
+      Object {
+        "additionalGuests": Array [
+          Object {
+            "carRegistration": "",
+            "email": "mac@test.com",
+            "firstName": "Mac",
+            "lastName": "Donalds",
+            "mobile": "+441111111111",
+            "nationality": "RP",
+            "telephone": "1111111111",
+            "title": "Mr",
+          },
+        ],
+        "bookingPreference": Object {
+          "foodPreference": "11",
+          "preselectWifi": "true",
+          "roomRequirements": Object {
+            "adults": 2,
+            "children": 0,
+            "cotRequired": false,
+            "hotelBrand": "PI",
+            "type": "DB",
+          },
+          "wantSmsConfirmations": false,
+        },
+        "businessUse": false,
+        "companyId": "",
+        "companyName": "Pareto Law",
+        "contactDetail": Object {
+          "address": Object {
+            "companyName": "Whitbread",
+            "countryCode": "GB",
+            "line1": "120 Holborn",
+            "line2": "",
+            "line3": "",
+            "line4": "LONDON",
+            "line5": "",
+            "postCode": "EC1N 2TD",
+            "type": "BUSINESS",
+          },
+          "carRegistration": "",
+          "email": "test@whitbread.com",
+          "firstName": "Test",
+          "lastName": "Test",
+          "mobile": "+351222222222",
+          "nationality": "GB",
+          "passport": Object {
+            "countryOfIssue": "",
+            "number": "",
+          },
+          "telephone": "111111111",
+          "title": "Mrs",
+        },
+        "guestHistoryNumber": "G14187551",
+        "paymentPreference": Object {
+          "electronicInvoiceRequired": "true",
+          "paymentCard": Object {
+            "cardHolderName": "dwa",
+            "cardNumber": "************1111",
+            "cardType": "VI",
+            "expiryDate": "07/23",
+          },
+        },
+        "sessionId": "zdiKE1MflNUmdXAS",
+      }
+    }
+    registerField={[Function]}
+    resetForm={[Function]}
+    setEditView={[MockFunction]}
+    setError={[Function]}
+    setErrors={[Function]}
+    setFieldError={[Function]}
+    setFieldTouched={[Function]}
+    setFieldValue={[Function]}
+    setFormikState={[Function]}
+    setStatus={[Function]}
+    setSubmitting={[Function]}
+    setTouched={[Function]}
+    setValues={[Function]}
+    submitCount={0}
+    submitForm={[Function]}
+    touched={Object {}}
+    unregisterField={[Function]}
+    validateField={[Function]}
+    validateForm={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+    values={
+      Object {
+        "invoiceOptions": "true",
+        "mealOptions": "11",
+        "wifiOptions": "true",
+      }
+    }
+  />
+</ContextProvider>
+`;

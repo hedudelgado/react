@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageStatus component should render the error variant component 1`] = `
+<BaseStyle
+  aria-live="off"
+  className="pi-page-status pi-page-status-error"
+  component="div"
+  data-test="error-error"
+  role="region"
+>
+  <Icon
+    className="icon"
+    icon="disc-info-new"
+  />
+  <Typography
+    className="title"
+    component="h5"
+  >
+    This is a title
+  </Typography>
+  <div
+    className="message"
+  >
+    This is a notification
+  </div>
+</BaseStyle>
+`;
+
+exports[`PageStatus component should render the warning variant component 1`] = `
+<BaseStyle
+  aria-live="off"
+  className="pi-page-status pi-page-status-warning"
+  component="div"
+  data-test="error-warning"
+  role="region"
+>
+  <Icon
+    className="icon"
+    icon="disc-info-new"
+  />
+  <Typography
+    className="title"
+    component="h5"
+  >
+    This is a title
+  </Typography>
+  <div
+    className="message"
+  >
+    This is a notification
+  </div>
+</BaseStyle>
+`;

@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
+
+# testing
+/coverage
+/mochawesome-report
+/cypress/fixtures
+/cypress/videos
+/cypress/screenshots
+
+# production
+/build
+*.zip
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea
+.vscode
+/.cache
+
+# config
+/public/config
+/public/dictionary
+/public/header
+
+# header
+/header/node_modules
+/header/build
+/header/.DS_Store
+/header/package-lock.json
+
+npm-debug.log*

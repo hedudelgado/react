@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteCustomer Component Renders DeleteCustomer Component Elements should render the component 1`] = `
+<BaseStyle
+  className="component-container"
+  component="div"
+>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  >
+    Delete Profile
+  </Typography>
+  <Typography
+    component="p"
+    mb="3"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+  </Typography>
+  <Button
+    color="secondary"
+    data-test="delete-customer"
+    fullWidth={true}
+    href={null}
+    onClick={[Function]}
+    submit={false}
+    variant="button"
+  >
+    Delete Profile
+  </Button>
+</BaseStyle>
+`;

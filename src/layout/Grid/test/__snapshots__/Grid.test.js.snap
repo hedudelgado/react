@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Component Main Container should render the component 1`] = `
+<BaseStyle
+  className="clearfix"
+  component="div"
+>
+  <Col
+    border={false}
+  >
+    test
+  </Col>
+</BaseStyle>
+`;

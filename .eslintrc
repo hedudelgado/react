@@ -1,0 +1,63 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "jest"
+  ],
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/require-default-props": "off",
+    "react/forbid-prop-types": "off",
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "jsx-a11y/label-has-for": {
+      "required": {
+        "some": [
+          "nesting",
+          "id"
+        ]
+      }
+    },
+    "prefer-promise-reject-errors": "off",
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_satellite"
+        ]
+      }
+    ]
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest/globals": true
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.js"
+      ],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image storyshots Notifications Notification 1`] = `
+<div
+  className="wb-soft--base wb-container"
+>
+  <div
+    className="wb-typography"
+  >
+    <div
+      aria-live="off"
+      className="pi-notification priority-1 priority-1-warning"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        
+        This is the main notification text.
+        <a
+          className="block mt1 error-link"
+          href="javacript:;"
+        >
+          Retry
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Notifications Preview 1`] = `
+<div
+  className="wb-soft--base wb-container"
+>
+  <div
+    className="wb-typography"
+  >
+    <h1>
+      Notification
+    </h1>
+    <h2
+      className="mt3 border-bottom"
+    >
+      Priority 1
+    </h2>
+    <div
+      aria-live="off"
+      className="pi-notification priority-1 priority-1-error"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+        <a
+          className="block mt1 error-link"
+          href="javacript:;"
+        >
+          Retry
+        </a>
+      </div>
+    </div>
+    <h2
+      className="mt3 border-bottom"
+    >
+      Priority 2
+    </h2>
+    <h3>
+      Warning
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-2 priority-2-warning"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Error
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-2 priority-2-error"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Info
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-2 priority-2-info"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Success
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-2 priority-2-success"
+      role="region"
+    >
+      <i
+        className="wb-icon_tick icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h2
+      className="mt3 border-bottom"
+    >
+      Priority 3
+    </h2>
+    <h3>
+      Warning
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-3 priority-3-warning"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Error
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-3 priority-3-error"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Info
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-3 priority-3-info"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Success
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-3 priority-3-success"
+      role="region"
+    >
+      <i
+        className="wb-icon_tick icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h2
+      className="mt3 border-bottom"
+    >
+      Priority 4
+    </h2>
+    <h3>
+      Warning
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-4 priority-4-warning"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Error
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-4 priority-4-error"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Info
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-4 priority-4-info"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Success
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-4 priority-4-success"
+      role="region"
+    >
+      <i
+        className="wb-icon_tick icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h2
+      className="mt3 border-bottom"
+    >
+      Priority 5
+    </h2>
+    <h3>
+      Warning
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-5 priority-5-warning"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Error
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-5 priority-5-error"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Info
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-5 priority-5-info"
+      role="region"
+    >
+      <i
+        className="wb-icon_disc-info-new icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+    <h3>
+      Success
+    </h3>
+    <div
+      aria-live="off"
+      className="pi-notification priority-5 priority-5-success"
+      role="region"
+    >
+      <i
+        className="wb-icon_tick icon"
+      />
+      <div
+        className="content"
+      >
+        <span
+          className="font-size--base title"
+        >
+          Random title
+        </span>
+        This is the main notification text.
+      </div>
+    </div>
+  </div>
+</div>
+`;

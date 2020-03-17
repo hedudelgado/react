@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemorableWord Component should render the component 1`] = `
+<BaseStyle
+  className="component-container"
+  component="section"
+>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  >
+    Reset your memorable word
+  </Typography>
+  <Typography
+    component="p"
+    mb="3"
+  >
+    Your memorable word is different from your password and can be used to authorise 'Card not present' payments.
+  </Typography>
+  <form
+    name="memorable-word-form"
+    onSubmit={[Function]}
+  >
+    <Input
+      mb="wb-push-middle--bottom"
+      name="memorableWord"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="New memorable word"
+      sessioncamhide={true}
+      touched={false}
+      type="password"
+      value=""
+    />
+    <Button
+      color="secondary"
+      data-test="update-memorable-word"
+      fullWidth={true}
+      href={null}
+      mt="2"
+      onClick={[Function]}
+      submit={false}
+      type="submit"
+      variant="button"
+    >
+      Submit
+    </Button>
+  </form>
+</BaseStyle>
+`;

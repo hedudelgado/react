@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegularGuests Component Renders RegularGuests Component Data should default to empty array 1`] = `
+<section
+  className="component-container"
+>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  >
+    Regular Guests
+  </Typography>
+  <Typography
+    component="p"
+    data-test="no-guests-message"
+    mb="3"
+  >
+    There are no guests
+  </Typography>
+  <Connect(ComponentToggler)
+    edit={[Function]}
+    view={[Function]}
+    viewName="ADD_GUEST_VIEW"
+  />
+</section>
+`;

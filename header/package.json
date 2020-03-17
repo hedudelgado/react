@@ -1,0 +1,42 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build && mkdir build",
+    "copy:html": "cp src/index.html build && cp src/authentication.html build",
+    "copy:header:js": "cp node_modules/header-premier-inn/dist/js/header.js build/header_lib.js",
+    "copy:header:css": "cp node_modules/header-premier-inn/dist/css/style.css build/header_style.css",
+    "copy:header:auth0": "cp node_modules/auth0-js/build/auth0.js build/auth0.js",
+    "copy:assets": "npm run clean && npm run copy:html && npm run copy:header:js && npm run copy:header:css && npm run copy:header:auth0",
+    "transpile:dev": "NODE_ENV=development webpack --config webpack.config.js",
+    "transpile:prod": "NODE_ENV=production webpack --config webpack.config.js --mode=production",
+    "build:dev": "npm run copy:assets && npm run transpile:dev",
+    "build:prod": "npm run copy:assets && npm run transpile:prod",
+    "start": "npm run copy:assets && npm run transpile:dev -- --watch",
+    "serve": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "auth0-js": "^9.10.1",
+    "header-premier-inn": "git+https://whitbread-automation:33a421c4a27fc88ce25ac5bde340e4a599f1e74a@github.com/whitbread-eos/pi-header.git#2.59.1-dev.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "ie > 9",
+    "not op_mini all"
+  ]
+}

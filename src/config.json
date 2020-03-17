@@ -1,0 +1,115 @@
+{
+  "USER_LOGGED_IN_EVENT": "userLoggedIn",
+  "STAYER": "STAYER",
+  "SELF": "SELF",
+  "BOOKER": "BOOKER",
+  "SUPER": "SUPER",
+  "managePermissionFlag": false,
+  "managePermissionLink": "/gb/en/home.html",
+  "apiErrorCodes": {
+    "INCORRECT_PASSWORD": "012"
+  },
+  "defaultCountry": "GB",
+  "marketingRegions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "mealOptions": [{
+      "dictionaryKey": "mealoptions.pibreakfast",
+      "code": "11"
+    },
+    {
+      "dictionaryKey": "mealoptions.continentalbreakfast",
+      "code": "12"
+    },
+    {
+      "dictionaryKey": "mealoptions.mealdeal",
+      "code": "17"
+    },
+    {
+      "dictionaryKey": "mealoptions.nomeals",
+      "code": "0"
+    }
+  ],
+  "roomRequirements": {
+    "adults": [
+      1,
+      2
+    ],
+    "children": [
+      0,
+      1,
+      2
+    ],
+    "type": [{
+        "dictionaryKey": "roomrequirements.type.double",
+        "code": "DB"
+      },
+      {
+        "dictionaryKey": "roomrequirements.type.single",
+        "code": "SB"
+      },
+      {
+        "dictionaryKey": "roomrequirements.type.twin",
+        "code": "TWIN"
+      },
+      {
+        "dictionaryKey": "roomrequirements.type.accessible",
+        "code": "DIS"
+      },
+      {
+        "dictionaryKey": "roomrequirements.type.family",
+        "code": "FAM"
+      }
+    ],
+    "defaults": {
+      "adults": 1,
+      "children": 0,
+      "cotRequired": false,
+      "type": "DB",
+      "hotelBrand": "PI"
+    }
+  },
+  "BUSINESS": "BUSINESS",
+  "LEISURE": "HOME",
+  "paymentCards": {
+    "AC": {
+      "name": "Mastercard Credit",
+      "img": "/content/dam/global/booking/Mastercard.jpg"
+    },
+    "AM": {
+      "name": "American Express",
+      "img": "/content/dam/global/booking/AX.jpg"
+    },
+    "AT": {
+      "name": "Business Account",
+      "img": "/content/dam/global/booking/Business_Account.jpg"
+    },
+    "DI": {
+      "name": "Diners Club",
+      "img": "/content/dam/global/booking/dinersclub.jpg"
+    },
+    "EL": {
+      "name": "Electron",
+      "img": "/content/dam/global/booking/Electron_white_v.jpg"
+    },
+    "MA": {
+      "name": "Maestro",
+      "img": "/content/dam/global/booking/maestro.jpg"
+    },
+    "DL": {
+      "name": "Visa Debit",
+      "img": "/content/dam/global/booking/Visa_Debit.jpg"
+    },
+    "MD": {
+      "name": "Mastercard Debit",
+      "img": "/content/dam/global/booking/MD.jpg"
+    },
+    "VI": {
+      "name": "Visa Credit",
+      "img": "/content/dam/global/booking/VC.jpg"
+    }
+  }
+}

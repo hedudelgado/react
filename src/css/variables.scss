@@ -1,0 +1,43 @@
+/* Fonts */
+$base-font: "PremierInn_Sans", helvetica, arial, sans-serif;
+$wb-icon-path: "../../css/wb-icons/" !default;
+
+$line-height--xxs: 1rem; // 16px
+$line-height--subtext: 1.063rem; // 17px
+$line-height--xs: 1.188rem; // 19px
+$line-height--s: 1.313rem; // 21px
+$line-height--m: 1.5rem; // 24px
+$line-height--l: 1.75rem; // 28px
+$line-height--xl: 2.813rem; // 45px
+$line-height--xxl: 3rem; // 48px
+$line-height--xxxl: 3.438rem; // 55px
+
+$font-size--xs: 0.75rem; // 12px;
+$font-size--s: 0.875rem; // 14px;
+$font-size--base: 1rem; // 16px;
+$font-size--m: 1.188rem; // 19px;
+$font-size--l: 1.4375rem; // 23px;
+$font-size--xl: 1.875rem; // 30px;
+$font-size--xxl: 2.313rem; // 37px;
+$font-size--xxxl: 2.563rem; // 41px;
+$font-size--xxxxl: 3.063rem; // 49px;
+
+/* Spacing */
+$base-spacing--xs: 5px;
+$base-spacing--s: 10px;
+$base-spacing--base: 15px;
+$base-spacing--m: 20px;
+$base-spacing--l: 25px;
+$base-spacing--xl: 30px;
+
+/* Notification Colours */
+$pi-notification-warning-light: #feefd9;
+$pi-notification-warning-dark: #f58c0a;
+$pi-notification-error-light: #f9d9e2;
+$pi-notification-error-dark: #d90941;
+$pi-notification-info-light: #e5f1f5;
+$pi-notification-info-dark: #4e9eba;
+$pi-notification-success-light: #e2f5ef;
+$pi-notification-success-dark: #44bc96;
+$pi-notification-black: black;
+$pi-notification-white: white;

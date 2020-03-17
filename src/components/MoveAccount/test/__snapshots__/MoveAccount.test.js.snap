@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoveAccount Component should render the component 1`] = `
+<section
+  className="component-container"
+>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  >
+    Move Account
+  </Typography>
+  <Typography
+    component="p"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "A lot of text",
+      }
+    }
+    mb="3"
+  />
+  <Hyperlink
+    className=""
+    href="https://develop--pi-account-tethering.netlify.com"
+    variant="primary"
+  >
+    Move my account
+  </Hyperlink>
+</section>
+`;

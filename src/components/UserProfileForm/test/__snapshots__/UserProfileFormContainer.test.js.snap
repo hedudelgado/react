@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfileFormContainer Component Renders UserProfileFormContainer Element should match snapshot 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "dirty": false,
+      "errors": Object {},
+      "handleBlur": [Function],
+      "handleChange": [Function],
+      "handleReset": [Function],
+      "handleSubmit": [Function],
+      "initialValues": Object {
+        "businessAddress": "true",
+        "companyName": "",
+        "countryCode": "GB",
+        "dialingCountryCode": "GB",
+        "email": "test@whitbread.com",
+        "firstName": "Test",
+        "lastName": "testing",
+        "line1": "Random house",
+        "line2": "Random street",
+        "line3": "",
+        "line4": "LONDON",
+        "mobile": "00000000000",
+        "postCode": "EC1N 2TD",
+        "telephone": "11111111111",
+        "title": "Miss",
+        "type": "BUSINESS",
+      },
+      "isSubmitting": false,
+      "isValid": false,
+      "isValidating": false,
+      "registerField": [Function],
+      "resetForm": [Function],
+      "setError": [Function],
+      "setErrors": [Function],
+      "setFieldError": [Function],
+      "setFieldTouched": [Function],
+      "setFieldValue": [Function],
+      "setFormikState": [Function],
+      "setStatus": [Function],
+      "setSubmitting": [Function],
+      "setTouched": [Function],
+      "setValues": [Function],
+      "status": undefined,
+      "submitCount": 0,
+      "submitForm": [Function],
+      "touched": Object {},
+      "unregisterField": [Function],
+      "validate": [Function],
+      "validateField": [Function],
+      "validateForm": [Function],
+      "validateOnBlur": true,
+      "validateOnChange": true,
+      "validationSchema": undefined,
+      "values": Object {
+        "businessAddress": "true",
+        "companyName": "",
+        "countryCode": "GB",
+        "dialingCountryCode": "GB",
+        "email": "test@whitbread.com",
+        "firstName": "Test",
+        "lastName": "testing",
+        "line1": "Random house",
+        "line2": "Random street",
+        "line3": "",
+        "line4": "LONDON",
+        "mobile": "00000000000",
+        "postCode": "EC1N 2TD",
+        "telephone": "11111111111",
+        "title": "Miss",
+        "type": "BUSINESS",
+      },
+    }
+  }
+>
+  <UserProfileForm
+    countries={
+      Array [
+        Object {
+          "countryCode": "GB",
+          "countryCodeISO": "GB",
+          "countryLegend": "United Kingdom (the)",
+          "dialingCode": "+44",
+          "flagImg": "/content/dam/global/flags/United-Kingdom.png",
+          "passportRequired": false,
+        },
+        Object {
+          "countryCode": "D",
+          "countryCodeISO": "DE",
+          "countryLegend": "Germany",
+          "dialingCode": "+49",
+          "flagImg": "/content/dam/global/flags/Germany.png",
+          "passportRequired": true,
+        },
+        Object {
+          "countryCode": "GR",
+          "countryCodeISO": "GR",
+          "countryLegend": "Greece",
+          "dialingCode": "+30",
+          "flagImg": "/content/dam/global/flags/Greece.png",
+          "passportRequired": true,
+        },
+        Object {
+          "countryCode": "TEST",
+          "countryCodeISO": "TEST",
+          "countryLegend": "Test",
+          "dialingCode": "+499",
+          "flagImg": "test.png",
+          "passportRequired": true,
+        },
+      ]
+    }
+    dictionary={Object {}}
+    dirty={false}
+    errors={Object {}}
+    handleBlur={[Function]}
+    handleChange={[Function]}
+    handleReset={[Function]}
+    handleSubmit={[Function]}
+    initialValues={
+      Object {
+        "businessAddress": "true",
+        "companyName": "",
+        "countryCode": "GB",
+        "dialingCountryCode": "GB",
+        "email": "test@whitbread.com",
+        "firstName": "Test",
+        "lastName": "testing",
+        "line1": "Random house",
+        "line2": "Random street",
+        "line3": "",
+        "line4": "LONDON",
+        "mobile": "00000000000",
+        "postCode": "EC1N 2TD",
+        "telephone": "11111111111",
+        "title": "Miss",
+        "type": "BUSINESS",
+      }
+    }
+    isSubmitting={false}
+    isValid={false}
+    isValidating={false}
+    profile={
+      Object {
+        "contactDetail": Object {
+          "address": Object {
+            "companyName": "",
+            "countryCode": "GB",
+            "line1": "Random house",
+            "line2": "Random street",
+            "line3": "",
+            "line4": "LONDON",
+            "postCode": "EC1N 2TD",
+            "type": "BUSINESS",
+          },
+          "carRegistration": "",
+          "email": "test@whitbread.com",
+          "firstName": "Test",
+          "lastName": "testing",
+          "mobile": "+4400000000000",
+          "nationality": "GB",
+          "passport": Object {
+            "countryOfIssue": "",
+            "number": "",
+          },
+          "telephone": "+4411111111111",
+          "title": "Miss",
+        },
+      }
+    }
+    registerField={[Function]}
+    resetForm={[Function]}
+    setEditView={[MockFunction]}
+    setError={[Function]}
+    setErrors={[Function]}
+    setFieldError={[Function]}
+    setFieldTouched={[Function]}
+    setFieldValue={[Function]}
+    setFormikState={[Function]}
+    setStatus={[Function]}
+    setSubmitting={[Function]}
+    setTouched={[Function]}
+    setValues={[Function]}
+    submitCount={0}
+    submitForm={[Function]}
+    touched={Object {}}
+    unregisterField={[Function]}
+    validateField={[Function]}
+    validateForm={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+    values={
+      Object {
+        "businessAddress": "true",
+        "companyName": "",
+        "countryCode": "GB",
+        "dialingCountryCode": "GB",
+        "email": "test@whitbread.com",
+        "firstName": "Test",
+        "lastName": "testing",
+        "line1": "Random house",
+        "line2": "Random street",
+        "line3": "",
+        "line4": "LONDON",
+        "mobile": "00000000000",
+        "postCode": "EC1N 2TD",
+        "telephone": "11111111111",
+        "title": "Miss",
+        "type": "BUSINESS",
+      }
+    }
+  />
+</ContextProvider>
+`;

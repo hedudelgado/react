@@ -1,0 +1,968 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentCardFormContainer Component Renders PaymentCardFormContainer Component should render the component 1`] = `
+<PaymentCardFormContainer
+  app={Object {}}
+  countries={
+    Array [
+      Object {
+        "countryCode": "GB",
+        "countryCodeISO": "GB",
+        "countryLegend": "United Kingdom (the)",
+        "dialingCode": "+44",
+        "flagImg": "/content/dam/global/flags/United-Kingdom.png",
+        "passportRequired": false,
+      },
+      Object {
+        "countryCode": "D",
+        "countryCodeISO": "DE",
+        "countryLegend": "Germany",
+        "dialingCode": "+49",
+        "flagImg": "/content/dam/global/flags/Germany.png",
+        "passportRequired": true,
+      },
+      Object {
+        "countryCode": "GR",
+        "countryCodeISO": "GR",
+        "countryLegend": "Greece",
+        "dialingCode": "+30",
+        "flagImg": "/content/dam/global/flags/Greece.png",
+        "passportRequired": true,
+      },
+      Object {
+        "countryCode": "TEST",
+        "countryCodeISO": "TEST",
+        "countryLegend": "Test",
+        "dialingCode": "+499",
+        "flagImg": "test.png",
+        "passportRequired": true,
+      },
+    ]
+  }
+  dictionary={
+    Object {
+      "generic.error": "Oops, something went wrong!",
+      "payment.add.address.different": "Use different address",
+      "payment.add.address.same": "Use personal address",
+      "payment.add.cancel": "Cancel changes",
+      "payment.add.date": "Expiry date",
+      "payment.add.name": "Cardholder's name",
+      "payment.add.number": "Card number",
+      "payment.add.prepay": "I want to be able to prepay with my saved card to save time when checking in. Prepayment is not available at all Premier Inn hotels and sometimes you’ll need to pay when you check in.",
+      "payment.add.save": "Save card",
+      "payment.add.title": "Add payment card",
+      "profile.button.findpostcode": "Find new address",
+    }
+  }
+  profile={
+    Object {
+      "bookingPreference": Object {
+        "foodPreference": 11,
+        "roomRequirements": Object {
+          "adults": 1,
+          "children": 0,
+          "cotRequired": false,
+          "hotelBrand": "PI",
+          "type": "DB",
+        },
+        "wantSmsConfirmations": false,
+      },
+      "contactDetail": Object {
+        "address": Object {
+          "postCode": "EC1N 2TD",
+        },
+      },
+      "paymentPreference": Object {
+        "electronicInvoiceRequired": true,
+        "paymentCard": Object {
+          "cardHolderName": "dwa",
+          "cardNumber": "************1111",
+          "cardType": "VI",
+          "expiryDate": "07/23",
+        },
+      },
+    }
+  }
+  setEditView={[MockFunction]}
+  setNotificationMessage={[MockFunction]}
+  updateProfile={[MockFunction]}
+  updateProfileStore={[MockFunction]}
+>
+  <BaseStyle
+    className="component-container"
+    component="section"
+  >
+    <section
+      className="component-container"
+    >
+      <Typography
+        className="pi-color-greyscale-darkest"
+        component="h4"
+      >
+        <BaseStyle
+          className="wb-heading wb-heading--h4 pi-color-greyscale-darkest"
+          component="h4"
+        >
+          <h4
+            className="wb-heading wb-heading--h4 pi-color-greyscale-darkest"
+          >
+            Add payment card
+          </h4>
+        </BaseStyle>
+      </Typography>
+      <BaseStyle
+        className="mb2"
+        component="div"
+        data-test="payment-cards"
+      >
+        <div
+          className="mb2"
+          data-test="payment-cards"
+        >
+          <CardList
+            domain="https://www.premierinn.com"
+            paymentCards={
+              Object {
+                "AC": Object {
+                  "img": "/content/dam/global/booking/Mastercard.jpg",
+                  "name": "Mastercard Credit",
+                },
+                "AM": Object {
+                  "img": "/content/dam/global/booking/AX.jpg",
+                  "name": "American Express",
+                },
+                "AT": Object {
+                  "img": "/content/dam/global/booking/Business_Account.jpg",
+                  "name": "Business Account",
+                },
+                "DI": Object {
+                  "img": "/content/dam/global/booking/dinersclub.jpg",
+                  "name": "Diners Club",
+                },
+                "DL": Object {
+                  "img": "/content/dam/global/booking/Visa_Debit.jpg",
+                  "name": "Visa Debit",
+                },
+                "EL": Object {
+                  "img": "/content/dam/global/booking/Electron_white_v.jpg",
+                  "name": "Electron",
+                },
+                "MA": Object {
+                  "img": "/content/dam/global/booking/maestro.jpg",
+                  "name": "Maestro",
+                },
+                "MD": Object {
+                  "img": "/content/dam/global/booking/MD.jpg",
+                  "name": "Mastercard Debit",
+                },
+                "VI": Object {
+                  "img": "/content/dam/global/booking/VC.jpg",
+                  "name": "Visa Credit",
+                },
+              }
+            }
+          >
+            <Img
+              className="mr1"
+              key="Mastercard Credit"
+              label="Mastercard Credit"
+              src="https://www.premierinn.com/content/dam/global/booking/Mastercard.jpg"
+            >
+              <img
+                alt="Mastercard Credit"
+                aria-label="Mastercard Credit"
+                className="mr1"
+                src="https://www.premierinn.com/content/dam/global/booking/Mastercard.jpg"
+              />
+            </Img>
+            <Img
+              className="mr1"
+              key="American Express"
+              label="American Express"
+              src="https://www.premierinn.com/content/dam/global/booking/AX.jpg"
+            >
+              <img
+                alt="American Express"
+                aria-label="American Express"
+                className="mr1"
+                src="https://www.premierinn.com/content/dam/global/booking/AX.jpg"
+              />
+            </Img>
+            <Img
+              className="mr1"
+              key="Business Account"
+              label="Business Account"
+              src="https://www.premierinn.com/content/dam/global/booking/Business_Account.jpg"
+            >
+              <img
+                alt="Business Account"
+                aria-label="Business Account"
+                className="mr1"
+                src="https://www.premierinn.com/content/dam/global/booking/Business_Account.jpg"
+              />
+            </Img>
+            <Img
+              className="mr1"
+              key="Diners Club"
+              label="Diners Club"
+              src="https://www.premierinn.com/content/dam/global/booking/dinersclub.jpg"
+            >
+              <img
+                alt="Diners Club"
+                aria-label="Diners Club"
+                className="mr1"
+                src="https://www.premierinn.com/content/dam/global/booking/dinersclub.jpg"
+              />
+            </Img>
+            <Img
+              className="mr1"
+              key="Electron"
+              label="Electron"
+              src="https://www.premierinn.com/content/dam/global/booking/Electron_white_v.jpg"
+            >
+              <img
+                alt="Electron"
+                aria-label="Electron"
+                className="mr1"
+                src="https://www.premierinn.com/content/dam/global/booking/Electron_white_v.jpg"
+              />
+            </Img>
+            <Img
+              className="mr1"
+              key="Maestro"
+              label="Maestro"
+              src="https://www.premierinn.com/content/dam/global/booking/maestro.jpg"
+            >
+              <img
+                alt="Maestro"
+                aria-label="Maestro"
+                className="mr1"
+                src="https://www.premierinn.com/content/dam/global/booking/maestro.jpg"
+              />
+            </Img>
+            <Img
+              className="mr1"
+              key="Visa Debit"
+              label="Visa Debit"
+              src="https://www.premierinn.com/content/dam/global/booking/Visa_Debit.jpg"
+            >
+              <img
+                alt="Visa Debit"
+                aria-label="Visa Debit"
+                className="mr1"
+                src="https://www.premierinn.com/content/dam/global/booking/Visa_Debit.jpg"
+              />
+            </Img>
+            <Img
+              className="mr1"
+              key="Mastercard Debit"
+              label="Mastercard Debit"
+              src="https://www.premierinn.com/content/dam/global/booking/MD.jpg"
+            >
+              <img
+                alt="Mastercard Debit"
+                aria-label="Mastercard Debit"
+                className="mr1"
+                src="https://www.premierinn.com/content/dam/global/booking/MD.jpg"
+              />
+            </Img>
+            <Img
+              className="mr1"
+              key="Visa Credit"
+              label="Visa Credit"
+              src="https://www.premierinn.com/content/dam/global/booking/VC.jpg"
+            >
+              <img
+                alt="Visa Credit"
+                aria-label="Visa Credit"
+                className="mr1"
+                src="https://www.premierinn.com/content/dam/global/booking/VC.jpg"
+              />
+            </Img>
+          </CardList>
+        </div>
+      </BaseStyle>
+      <Formik
+        data-test="payment-card-form-wrapper"
+        enableReinitialize={false}
+        initialValues={
+          Object {
+            "cardHolderName": "",
+            "cardNumber": "",
+            "companyName": "",
+            "countryCode": "GB",
+            "expiryMonth": "",
+            "expiryYear": "",
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "line4": "",
+            "postCode": "",
+            "prePayment": "false",
+            "type": "HOME",
+            "usePersonalAddress": "true",
+          }
+        }
+        isInitialValid={false}
+        onSubmit={[Function]}
+        render={[Function]}
+        validate={[Function]}
+        validateOnBlur={true}
+        validateOnChange={true}
+      >
+        <PaymentCardForm
+          cancel={[Function]}
+          cardType=""
+          countries={
+            Array [
+              Object {
+                "countryCode": "GB",
+                "countryCodeISO": "GB",
+                "countryLegend": "United Kingdom (the)",
+                "dialingCode": "+44",
+                "flagImg": "/content/dam/global/flags/United-Kingdom.png",
+                "passportRequired": false,
+              },
+              Object {
+                "countryCode": "D",
+                "countryCodeISO": "DE",
+                "countryLegend": "Germany",
+                "dialingCode": "+49",
+                "flagImg": "/content/dam/global/flags/Germany.png",
+                "passportRequired": true,
+              },
+              Object {
+                "countryCode": "GR",
+                "countryCodeISO": "GR",
+                "countryLegend": "Greece",
+                "dialingCode": "+30",
+                "flagImg": "/content/dam/global/flags/Greece.png",
+                "passportRequired": true,
+              },
+              Object {
+                "countryCode": "TEST",
+                "countryCodeISO": "TEST",
+                "countryLegend": "Test",
+                "dialingCode": "+499",
+                "flagImg": "test.png",
+                "passportRequired": true,
+              },
+            ]
+          }
+          dictionary={
+            Object {
+              "generic.error": "Oops, something went wrong!",
+              "payment.add.address.different": "Use different address",
+              "payment.add.address.same": "Use personal address",
+              "payment.add.cancel": "Cancel changes",
+              "payment.add.date": "Expiry date",
+              "payment.add.name": "Cardholder's name",
+              "payment.add.number": "Card number",
+              "payment.add.prepay": "I want to be able to prepay with my saved card to save time when checking in. Prepayment is not available at all Premier Inn hotels and sometimes you’ll need to pay when you check in.",
+              "payment.add.save": "Save card",
+              "payment.add.title": "Add payment card",
+              "profile.button.findpostcode": "Find new address",
+            }
+          }
+          dirty={false}
+          disableSelectDefaults={
+            Object {
+              "month": false,
+              "year": false,
+            }
+          }
+          domain="https://www.premierinn.com"
+          errors={Object {}}
+          handleBlur={[Function]}
+          handleCardNumberBlur={[Function]}
+          handleChange={[Function]}
+          handleReset={[Function]}
+          handleSubmit={[Function]}
+          initialValues={
+            Object {
+              "cardHolderName": "",
+              "cardNumber": "",
+              "companyName": "",
+              "countryCode": "GB",
+              "expiryMonth": "",
+              "expiryYear": "",
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line4": "",
+              "postCode": "",
+              "prePayment": "false",
+              "type": "HOME",
+              "usePersonalAddress": "true",
+            }
+          }
+          isSubmitting={false}
+          isValid={false}
+          isValidating={false}
+          paymentCards={
+            Object {
+              "AC": Object {
+                "img": "/content/dam/global/booking/Mastercard.jpg",
+                "name": "Mastercard Credit",
+              },
+              "AM": Object {
+                "img": "/content/dam/global/booking/AX.jpg",
+                "name": "American Express",
+              },
+              "AT": Object {
+                "img": "/content/dam/global/booking/Business_Account.jpg",
+                "name": "Business Account",
+              },
+              "DI": Object {
+                "img": "/content/dam/global/booking/dinersclub.jpg",
+                "name": "Diners Club",
+              },
+              "DL": Object {
+                "img": "/content/dam/global/booking/Visa_Debit.jpg",
+                "name": "Visa Debit",
+              },
+              "EL": Object {
+                "img": "/content/dam/global/booking/Electron_white_v.jpg",
+                "name": "Electron",
+              },
+              "MA": Object {
+                "img": "/content/dam/global/booking/maestro.jpg",
+                "name": "Maestro",
+              },
+              "MD": Object {
+                "img": "/content/dam/global/booking/MD.jpg",
+                "name": "Mastercard Debit",
+              },
+              "VI": Object {
+                "img": "/content/dam/global/booking/VC.jpg",
+                "name": "Visa Credit",
+              },
+            }
+          }
+          postCode="EC1N 2TD"
+          registerField={[Function]}
+          resetForm={[Function]}
+          setError={[Function]}
+          setErrors={[Function]}
+          setFieldError={[Function]}
+          setFieldTouched={[Function]}
+          setFieldValue={[Function]}
+          setFormikState={[Function]}
+          setStatus={[Function]}
+          setSubmitting={[Function]}
+          setTouched={[Function]}
+          setValues={[Function]}
+          showExpiryDateError={false}
+          submitCount={0}
+          submitForm={[Function]}
+          touched={Object {}}
+          unregisterField={[Function]}
+          validateField={[Function]}
+          validateForm={[Function]}
+          validateOnBlur={true}
+          validateOnChange={true}
+          values={
+            Object {
+              "cardHolderName": "",
+              "cardNumber": "",
+              "companyName": "",
+              "countryCode": "GB",
+              "expiryMonth": "",
+              "expiryYear": "",
+              "line1": "",
+              "line2": "",
+              "line3": "",
+              "line4": "",
+              "postCode": "",
+              "prePayment": "false",
+              "type": "HOME",
+              "usePersonalAddress": "true",
+            }
+          }
+        >
+          <form
+            data-test="payment-card-form"
+            name="payment-card-form"
+            onSubmit={[Function]}
+          >
+            <Input
+              id="cardHolderName"
+              mb="mb2"
+              name="cardHolderName"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Cardholder's name"
+              sessioncamhide={true}
+              type="text"
+            >
+              <div
+                className="wb-form-item mb2"
+              >
+                <div
+                  className="wb-form-item__field wb-form-item__field__full"
+                >
+                  <input
+                    className="sessioncamhidetext wb-dark"
+                    id="cardHolderName"
+                    name="cardHolderName"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder="Cardholder's name"
+                    type="text"
+                  />
+                </div>
+              </div>
+            </Input>
+            <CardNumberInput
+              card={Object {}}
+              name="cardNumber"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Card number"
+              sessioncamhide={true}
+              type="tel"
+            >
+              <div
+                className="wb-form-item mb2"
+              >
+                <div
+                  className="wb-form-item__field wb-form-item__field__full"
+                >
+                  <input
+                    className="sessioncamhidetext"
+                    name="cardNumber"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder="Card number"
+                    type="tel"
+                  />
+                </div>
+              </div>
+            </CardNumberInput>
+            <Typography
+              className="pi-color-greyscale-darkest mb0 mt2 wb-push-half--bottom"
+              component="p"
+              size="s"
+              weight="bold"
+            >
+              <BaseStyle
+                className="font-size--s wb-strong pi-color-greyscale-darkest mb0 mt2 wb-push-half--bottom"
+                component="p"
+              >
+                <p
+                  className="font-size--s wb-strong pi-color-greyscale-darkest mb0 mt2 wb-push-half--bottom"
+                >
+                  Expiry date
+                </p>
+              </BaseStyle>
+            </Typography>
+            <BaseStyle
+              className="clearfix wb-push-middle--bottom"
+              component="div"
+            >
+              <div
+                className="clearfix wb-push-middle--bottom"
+              >
+                <BaseStyle
+                  className="clearfix"
+                  component="div"
+                >
+                  <div
+                    className="clearfix"
+                  >
+                    <Select
+                      halfWidth={true}
+                      hideIcon={true}
+                      hideMessage={true}
+                      id="expiryMonth"
+                      name="expiryMonth"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      placeholder=""
+                      sessioncamhide={true}
+                    >
+                      <div
+                        className="wb-form-item col mr2"
+                      >
+                        <div
+                          className="wb-form-item__field wb-form-item__field__half"
+                        >
+                          <select
+                            className="sessioncamhidetext"
+                            id="expiryMonth"
+                            name="expiryMonth"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                          >
+                            <option
+                              defaultValue={true}
+                              disabled={false}
+                              key="month"
+                              value=""
+                            />
+                            <option
+                              key="01"
+                              value={1}
+                            >
+                              01
+                            </option>
+                            <option
+                              key="02"
+                              value={2}
+                            >
+                              02
+                            </option>
+                            <option
+                              key="03"
+                              value={3}
+                            >
+                              03
+                            </option>
+                            <option
+                              key="04"
+                              value={4}
+                            >
+                              04
+                            </option>
+                            <option
+                              key="05"
+                              value={5}
+                            >
+                              05
+                            </option>
+                            <option
+                              key="06"
+                              value={6}
+                            >
+                              06
+                            </option>
+                            <option
+                              key="07"
+                              value={7}
+                            >
+                              07
+                            </option>
+                            <option
+                              key="08"
+                              value={8}
+                            >
+                              08
+                            </option>
+                            <option
+                              key="09"
+                              value={9}
+                            >
+                              09
+                            </option>
+                            <option
+                              key="10"
+                              value={10}
+                            >
+                              10
+                            </option>
+                            <option
+                              key="11"
+                              value={11}
+                            >
+                              11
+                            </option>
+                            <option
+                              key="12"
+                              value={12}
+                            >
+                              12
+                            </option>
+                          </select>
+                          <div
+                            className="wb-icon_arrow-down"
+                          />
+                        </div>
+                      </div>
+                    </Select>
+                    <Select
+                      halfWidth={true}
+                      hideIcon={false}
+                      hideMessage={true}
+                      id="expiryYear"
+                      name="expiryYear"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      placeholder=""
+                      sessioncamhide={true}
+                    >
+                      <div
+                        className="wb-form-item col mr2"
+                      >
+                        <div
+                          className="wb-form-item__field wb-form-item__field__half"
+                        >
+                          <select
+                            className="sessioncamhidetext"
+                            id="expiryYear"
+                            name="expiryYear"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                          >
+                            <option
+                              disabled={false}
+                              key="year"
+                              value=""
+                            />
+                            <option
+                              key="2019"
+                              value={2019}
+                            >
+                              2019
+                            </option>
+                            <option
+                              key="2020"
+                              value={2020}
+                            >
+                              2020
+                            </option>
+                            <option
+                              key="2021"
+                              value={2021}
+                            >
+                              2021
+                            </option>
+                            <option
+                              key="2022"
+                              value={2022}
+                            >
+                              2022
+                            </option>
+                            <option
+                              key="2023"
+                              value={2023}
+                            >
+                              2023
+                            </option>
+                            <option
+                              key="2024"
+                              value={2024}
+                            >
+                              2024
+                            </option>
+                            <option
+                              key="2025"
+                              value={2025}
+                            >
+                              2025
+                            </option>
+                            <option
+                              key="2026"
+                              value={2026}
+                            >
+                              2026
+                            </option>
+                            <option
+                              key="2027"
+                              value={2027}
+                            >
+                              2027
+                            </option>
+                            <option
+                              key="2028"
+                              value={2028}
+                            >
+                              2028
+                            </option>
+                          </select>
+                          <div
+                            className="wb-icon_arrow-down"
+                          />
+                        </div>
+                      </div>
+                    </Select>
+                  </div>
+                </BaseStyle>
+              </div>
+            </BaseStyle>
+            <RadioGroup>
+              <div
+                className="wb-form-item fixed-size mb3 wb-form-item--clean max-fit"
+              >
+                <ul
+                  className="wb-radio__group"
+                >
+                  <RadioItem
+                    field={
+                      Object {
+                        "name": "usePersonalAddress",
+                        "onBlur": [Function],
+                        "onChange": [Function],
+                        "value": "true",
+                      }
+                    }
+                    id="usePersonalAddress"
+                    label="Use personal address"
+                    name="usePersonalAddress"
+                    sessioncamhide={true}
+                    subLabels={
+                      Array [
+                        "EC1N 2TD",
+                      ]
+                    }
+                    value="true"
+                  >
+                    <li
+                      className="wb-radio__inner"
+                    >
+                      <label
+                        className="wb-radio__label"
+                        htmlFor="usePersonalAddress"
+                      >
+                        <input
+                          checked={true}
+                          className="sessioncamhidetext"
+                          id="usePersonalAddress"
+                          name="usePersonalAddress"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          type="radio"
+                          value="true"
+                        />
+                        <span
+                          className="wb-radio__label__inner"
+                        >
+                          <span
+                            className="wb-radio__label__inner__title"
+                          >
+                            Use personal address
+                          </span>
+                          <span
+                            className="wb-radio__label__inner-info"
+                            key="EC1N 2TD"
+                          >
+                            EC1N 2TD
+                          </span>
+                        </span>
+                      </label>
+                    </li>
+                  </RadioItem>
+                  <RadioItem
+                    field={
+                      Object {
+                        "name": "usePersonalAddress",
+                        "onBlur": [Function],
+                        "onChange": [Function],
+                        "value": "true",
+                      }
+                    }
+                    id="useBillingAddress"
+                    label="Use different address"
+                    name="usePersonalAddress"
+                    sessioncamhide={true}
+                    subLabels={Array []}
+                    value="false"
+                  >
+                    <li
+                      className="wb-radio__inner"
+                    >
+                      <label
+                        className="wb-radio__label"
+                        htmlFor="useBillingAddress"
+                      >
+                        <input
+                          checked={false}
+                          className="sessioncamhidetext"
+                          id="useBillingAddress"
+                          name="usePersonalAddress"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          type="radio"
+                          value="false"
+                        />
+                        <span
+                          className="wb-radio__label__inner"
+                        >
+                          <span
+                            className="wb-radio__label__inner__title"
+                          >
+                            Use different address
+                          </span>
+                        </span>
+                      </label>
+                    </li>
+                  </RadioItem>
+                </ul>
+              </div>
+            </RadioGroup>
+            <Checkbox
+              field={
+                Object {
+                  "name": "prePayment",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "value": "false",
+                }
+              }
+              id="prePayment"
+              label="I want to be able to prepay with my saved card to save time when checking in. Prepayment is not available at all Premier Inn hotels and sometimes you’ll need to pay when you check in."
+              name="prePayment"
+              sessioncamhide={true}
+            >
+              <div
+                className="wb-form-item wb-checkbox wb-checkbox__white wb-form-item--clean mb3"
+              >
+                <input
+                  className="sessioncamhidetext"
+                  id="prePayment"
+                  name="prePayment"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  type="checkbox"
+                  value="false"
+                />
+                <label
+                  htmlFor="prePayment"
+                >
+                  I want to be able to prepay with my saved card to save time when checking in. Prepayment is not available at all Premier Inn hotels and sometimes you’ll need to pay when you check in.
+                </label>
+              </div>
+            </Checkbox>
+            <Button
+              className="wb-push--bottom"
+              color="primary"
+              fullWidth={false}
+              href={null}
+              id="save-card"
+              onClick={[Function]}
+              submit={false}
+              type="submit"
+              variant="button"
+            >
+              <button
+                className="wb-btn wb-btn--primary wb-btn--small wb-push--bottom"
+                onClick={[Function]}
+                type="submit"
+              >
+                Save card
+              </button>
+            </Button>
+            <Button
+              className="wb-text-btn--underline block wb-push--bottom"
+              color="default"
+              data-test="closeForm"
+              fullWidth={false}
+              href={null}
+              onClick={[Function]}
+              submit={false}
+              variant="text"
+            >
+              <button
+                className="wb-text-btn wb-text-btn--default wb-text-btn--underline block wb-push--bottom"
+                onClick={[Function]}
+                type="button"
+              >
+                Cancel changes
+              </button>
+            </Button>
+          </form>
+        </PaymentCardForm>
+      </Formik>
+    </section>
+  </BaseStyle>
+</PaymentCardFormContainer>
+`;

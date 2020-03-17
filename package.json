@@ -1,0 +1,143 @@
+{
+  "name": "pi-account-settings",
+  "version": "1.1.0-dev.2",
+  "author": "Whitbread Group Plc",
+  "license": "SEE LICENSE IN license.txt",
+  "private": true,
+  "scripts": {
+    "add-version": "node scripts/add-version-to-artifact build/static/js && node scripts/add-version-to-artifact build/static/css",
+    "preinstall": "cd header && npm install",
+    "prestart": "npm run header:build:dev && npm run header:copy:dev && node scripts/preStart.js && (chokidar \"mocked*/*.json\" -c \"node scripts/preStart.js\" &) && cd header && npm run serve &",
+    "start": "rescripts start",
+    "build": "rescripts build && npm run add-version",
+    "build:aem": "npm run build && node scripts/aem-build.js",
+    "build:ci": "npm run build && npm run storybook:copy && npm run header:build:prod && npm run header:copy:prod",
+    "postbuild": "node scripts/postBuild.js",
+    "postbuild:ci": "npm run postbuild",
+    "storybook": "start-storybook -p 9009 -s public",
+    "storybook:build": "rm -rf ./storybook_static && build-storybook -c .storybook -o ./storybook_static",
+    "storybook:build:add": "npm run storybook:build && git add storybook_static",
+    "storybook:copy": "mkdir build/storybook/ && cp -r storybook_static/* build/storybook",
+    "header:build:dev": "cd header && npm run build:dev",
+    "header:build:prod": "cd header && npm run build:prod",
+    "header:serve": "cd header && npm run serve",
+    "header:copy:prod": "mkdir -p build/header/ && cp header/build/* build/header",
+    "header:copy:dev": "mkdir -p public/header/ && cp header/build/header_* public/header",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "react-scripts test --transformIgnorePatterns='/node_modules/(?!dom-library|mega-code).+(js)'",
+    "test:coverage": "react-scripts test --coverage --watchAll=false --transformIgnorePatterns='/node_modules/(?!dom-library|mega-code).+(js)'",
+    "prestorybook": "npm run prestart",
+    "serve": "node server.js",
+    "create-component": "node scripts/create-component",
+    "update-ui-kit-paths": "node scripts/update-ui-kit-paths"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "core-js": "^2.5.7",
+    "fast-luhn": "^1.0.3",
+    "formik": "^1.5.1",
+    "jstimezonedetect": "^1.0.6",
+    "mega-code": "git+https://whitbread-automation:33a421c4a27fc88ce25ac5bde340e4a599f1e74a@github.com/whitbread-eos/Mega-Code.git#2.0.0",
+    "prop-types": "^15.6.2",
+    "query-string": "^5.1.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^5.1.0",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "whatwg-fetch": "^3.0.0",
+    "whitbread-ui-kit": "git+https://whitbread-automation:33a421c4a27fc88ce25ac5bde340e4a599f1e74a@github.com/whitbread-eos/whitbread-ui-kit.git#19.8.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/runtime": "^7.1.5",
+    "@rescripts/cli": "0.0.10",
+    "@storybook/addon-actions": "^4.1.12",
+    "@storybook/addon-centered": "^4.1.12",
+    "@storybook/addon-info": "^4.1.12",
+    "@storybook/addon-knobs": "^4.1.12",
+    "@storybook/addon-links": "^4.1.12",
+    "@storybook/addon-options": "^4.1.12",
+    "@storybook/addon-storyshots": "^4.1.12",
+    "@storybook/addon-viewport": "^4.1.12",
+    "@storybook/react": "^4.1.12",
+    "chokidar-cli": "^1.2.2",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "enzyme-to-json": "^3.3.5",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^21.27.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "express": "^4.16.4",
+    "fetch-mock": "^7.3.0",
+    "husky": "^1.1.3",
+    "jest-chain": "^1.1.2",
+    "jest-enzyme": "^7.0.1",
+    "jest-extended": "^0.11.1",
+    "jest-localstorage-mock": "^2.4.0",
+    "jest-when": "^2.4.0",
+    "lint-staged": "^8.1.4",
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.18.0",
+    "mockdate": "^2.0.2",
+    "pi-aem-fe-package-build": "git+https://whitbread-automation:33a421c4a27fc88ce25ac5bde340e4a599f1e74a@github.com/whitbread-eos/pi-aem-fe-package-build.git#1.0.0",
+    "react-docgen": "^2.21.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.3",
+    "require-context.macro": "^1.0.4",
+    "storybook-addon-react-docgen": "^1.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run test:coverage && npm run storybook:build:add"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint:fix",
+      "git add"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/src/index.js",
+      "!<rootDir>/src/setupTests.js",
+      "!<rootDir>/src/utils/store.js",
+      "!<rootDir>/.storybook/*",
+      "!<rootDir>/documentation/stories/**/*",
+      "!<rootDir>/scripts/*",
+      "!<rootDir>/header/*",
+      "!<rootDir>/header/build/*"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": -10
+      }
+    }
+  },
+  "eslintIgnore": [
+    "/src/setupTests.js",
+    "/coverage/*",
+    "/build/*",
+    "/scripts/*",
+    "/public/**/*",
+    "/header/build/*",
+    "/header/node_modules/*",
+    "/storybook_static/*"
+  ],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "ie > 9",
+    "not op_mini all"
+  ]
+}

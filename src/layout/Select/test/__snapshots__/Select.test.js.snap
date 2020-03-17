@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Component should render the component 1`] = `
+<div
+  className="wb-form-item wb-push-middle--bottom"
+>
+  <label
+    className="wb-strong"
+    htmlFor="test"
+  >
+    Label
+  </label>
+  <div
+    className="wb-form-item__field wb-form-item__field__full"
+  >
+    <select
+      className=""
+      id="test"
+      label="Label"
+      type="text"
+      value="value"
+    />
+    <div
+      className="wb-icon_arrow-down"
+    />
+    <span
+      className="form-item-msg__info-icon wb-icon_disc-checked-fill"
+    />
+  </div>
+</div>
+`;

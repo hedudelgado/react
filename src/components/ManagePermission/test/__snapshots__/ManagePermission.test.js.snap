@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManagePermission Component should match snapshot 1`] = `
+<section
+  className="component-container"
+>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  >
+    Contact and permissions centre
+  </Typography>
+  <Typography
+    component="p"
+    mb="2"
+  />
+  <Button
+    color="secondary"
+    data-test="manage-permission"
+    fullWidth={true}
+    href={null}
+    onClick={[Function]}
+    submit={false}
+    variant="button"
+  >
+    Manage permissions
+  </Button>
+</section>
+`;

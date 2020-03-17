@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image storyshots Hyperlink Hyperlink 1`] = `
+<div
+  className="wb-soft--base wb-container"
+>
+  <div
+    className="wb-typography"
+  >
+    <a
+      className=""
+      href="https://www.premierinn.com/"
+    >
+      Click here
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Hyperlink Preview 1`] = `
+<div
+  className="wb-soft--base wb-container"
+>
+  <div
+    className="wb-typography"
+  >
+    <h1>
+      Hyperlink
+    </h1>
+    <h2
+      className="mt3 border-bottom"
+    >
+      Variant regular
+    </h2>
+    <a
+      className=""
+      href="https://www.premierinn.com/"
+    >
+      Click here
+    </a>
+    <h2
+      className="mt3 border-bottom"
+    >
+      Variant primary
+    </h2>
+    <a
+      className="wb-btn wb-btn--full-width wb-btn--small max-fit wb-btn--primary"
+      href="https://www.premierinn.com/"
+    >
+      Click here
+    </a>
+    <h2
+      className="mt3 border-bottom"
+    >
+      Variant secondary
+    </h2>
+    <a
+      className="wb-btn wb-btn--full-width wb-btn--small max-fit wb-btn--secondary"
+      href="https://www.premierinn.com/"
+    >
+      Click here
+    </a>
+  </div>
+</div>
+`;

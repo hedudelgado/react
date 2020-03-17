@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentCard Component PaymentCard form default values should default to add payment card view  1`] = `
+<section
+  className="component-container"
+>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  >
+    Payment
+  </Typography>
+  <Typography
+    component="p"
+    data-test="no-guests-message"
+    mb="3"
+  >
+    Save your card details for quicker, easier booking next time.
+  </Typography>
+  <Button
+    color="secondary"
+    fullWidth={true}
+    href={null}
+    id="add-card"
+    onClick={[Function]}
+    submit={false}
+    variant="button"
+  >
+    Add payment card
+  </Button>
+</section>
+`;
+
+exports[`PaymentCard Component Renders PaymentCard Component Elements should match snapshot 1`] = `
+<section
+  className="component-container"
+>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  >
+    Payment
+  </Typography>
+  <BaseStyle
+    className="basic-spacer"
+    component="div"
+    mb="3"
+  >
+    <div
+      className="card-layout p2 mt1 border rounded wb-push--bottom"
+    >
+      <div
+        className="right-align bold pb1"
+      >
+        Visa Credit
+      </div>
+      <div
+        className="right-align"
+      >
+        •••• •••• •••• 1111
+      </div>
+      <div
+        className="clearfix col-12 card-details relative"
+      >
+        <div
+          className="col col-10"
+        >
+          <div
+            className="pi-color-greyscale-dark"
+          >
+            Expiry date
+          </div>
+          <div
+            className="pb1"
+          >
+            07/23
+          </div>
+          <div>
+            dwa
+          </div>
+        </div>
+        <div
+          className="col col-2 right-align"
+        >
+          <img
+            alt="Visa Credit"
+            className="block right absolute bottom-0 right-0"
+            src="undefined/content/dam/global/booking/VC.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <Button
+      className="wb-text-btn--underline block wb-push--bottom"
+      color="red"
+      data-test="deleteCard"
+      fullWidth={false}
+      href={null}
+      onClick={[Function]}
+      submit={false}
+      variant="text"
+    >
+      Delete card
+    </Button>
+    <Button
+      color="quaternary"
+      fullWidth={false}
+      href={null}
+      id="edit-card"
+      onClick={[Function]}
+      submit={false}
+      variant="button"
+    >
+      Add new card
+    </Button>
+  </BaseStyle>
+</section>
+`;
+
+exports[`PaymentCard Component Renders PaymentCard Component Elements should render the component 1`] = `
+<section
+  className="component-container"
+>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  >
+    Payment
+  </Typography>
+  <BaseStyle
+    className="basic-spacer"
+    component="div"
+    mb="3"
+  >
+    <div
+      className="card-layout p2 mt1 border rounded wb-push--bottom"
+    >
+      <div
+        className="right-align bold pb1"
+      >
+        Visa Credit
+      </div>
+      <div
+        className="right-align"
+      >
+        •••• •••• •••• 1111
+      </div>
+      <div
+        className="clearfix col-12 card-details relative"
+      >
+        <div
+          className="col col-10"
+        >
+          <div
+            className="pi-color-greyscale-dark"
+          >
+            Expiry date
+          </div>
+          <div
+            className="pb1"
+          >
+            07/23
+          </div>
+          <div>
+            dwa
+          </div>
+        </div>
+        <div
+          className="col col-2 right-align"
+        >
+          <img
+            alt="Visa Credit"
+            className="block right absolute bottom-0 right-0"
+            src="undefined/content/dam/global/booking/VC.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <Button
+      className="wb-text-btn--underline block wb-push--bottom"
+      color="red"
+      data-test="deleteCard"
+      fullWidth={false}
+      href={null}
+      onClick={[Function]}
+      submit={false}
+      variant="text"
+    >
+      Delete card
+    </Button>
+    <Button
+      color="quaternary"
+      fullWidth={false}
+      href={null}
+      id="edit-card"
+      onClick={[Function]}
+      submit={false}
+      variant="button"
+    >
+      Add new card
+    </Button>
+  </BaseStyle>
+</section>
+`;

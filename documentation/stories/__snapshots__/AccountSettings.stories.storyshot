@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image storyshots Account Settings Preview 1`] = `
+<div
+  className="wb-soft--base wb-container"
+>
+  <div
+    className="wb-typography"
+  >
+    <div
+      data-test="AccountSettings"
+    />
+  </div>
+</div>
+`;

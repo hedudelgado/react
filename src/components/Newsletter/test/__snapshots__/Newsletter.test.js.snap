@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Newsletter Component Renders Newsletter Component Elements should match snapshot 1`] = `
+<BaseStyle
+  className="component-container"
+  component="section"
+  data-test="newsletter-component"
+>
+  <Typography
+    className="pi-color-greyscale-darkest"
+    component="h4"
+  >
+    Email preferences
+  </Typography>
+  <Typography
+    component="p"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "We would like to send you news and offers. If you would prefer not to receive these, please ensure this box is ticked.",
+      }
+    }
+    mb="2"
+  />
+  <form
+    name="newsletter-form"
+    onSubmit={[Function]}
+  >
+    <BaseStyle
+      component="section"
+      mb="3"
+    >
+      <BaseStyle
+        className="wb-checkbox wb-checkbox__white mb2"
+        component="div"
+        data-test="newsletter-region-1"
+        key="1"
+      >
+        <input
+          defaultChecked={false}
+          id="newsletter-region-1"
+          name="newsletter-region-1"
+          onChange={[Function]}
+          region={1}
+          type="checkbox"
+        />
+        <label
+          className="font-size--base"
+          htmlFor="newsletter-region-1"
+        >
+          I don't want to receive email market about Premier Inn hotels
+        </label>
+      </BaseStyle>
+      <BaseStyle
+        className="wb-checkbox wb-checkbox__white mb2"
+        component="div"
+        data-test="newsletter-region-2"
+        key="2"
+      >
+        <input
+          defaultChecked={true}
+          id="newsletter-region-2"
+          name="newsletter-region-2"
+          onChange={[Function]}
+          region={2}
+          type="checkbox"
+        />
+        <label
+          className="font-size--base"
+          htmlFor="newsletter-region-2"
+        />
+      </BaseStyle>
+      <BaseStyle
+        className="wb-checkbox wb-checkbox__white mb2"
+        component="div"
+        data-test="newsletter-region-3"
+        key="3"
+      >
+        <input
+          defaultChecked={false}
+          id="newsletter-region-3"
+          name="newsletter-region-3"
+          onChange={[Function]}
+          region={3}
+          type="checkbox"
+        />
+        <label
+          className="font-size--base"
+          htmlFor="newsletter-region-3"
+        />
+      </BaseStyle>
+      <BaseStyle
+        className="wb-checkbox wb-checkbox__white mb2"
+        component="div"
+        data-test="newsletter-region-4"
+        key="4"
+      >
+        <input
+          defaultChecked={true}
+          id="newsletter-region-4"
+          name="newsletter-region-4"
+          onChange={[Function]}
+          region={4}
+          type="checkbox"
+        />
+        <label
+          className="font-size--base"
+          htmlFor="newsletter-region-4"
+        />
+      </BaseStyle>
+    </BaseStyle>
+    <Button
+      color="secondary"
+      data-test="update-newsletter"
+      fullWidth={true}
+      href={null}
+      mt="2"
+      onClick={[Function]}
+      submit={false}
+      type="submit"
+      variant="button"
+    >
+      Save changes
+    </Button>
+  </form>
+</BaseStyle>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Component Rendering should show the component 1`] = `
+<BaseStyle
+  className="pt3 wb-modal"
+  component="div"
+>
+  <BaseStyle
+    className="wb-modal-content"
+    component="div"
+  >
+    <Button
+      className="wb-modal-content-close wb-btn wb-button-reset wb-icon_cross"
+      color="default"
+      data-test="close-modal"
+      fullWidth={false}
+      href={null}
+      onClick={[MockFunction]}
+      submit={false}
+      type="button"
+      variant="button"
+    />
+    content
+  </BaseStyle>
+</BaseStyle>
+`;

@@ -1,0 +1,33 @@
+{
+  "subscribedStatus": true,
+  "sessionId": "bO4u7MvIMhPxluVJ",
+  "firstName": "Rachelle",
+  "lastName": "Ragasa",
+  "emailAddress": "fresh@mailinator.com",
+  "countryCode": "GB",
+  "businessClient": false,
+  "restaurantNewsletter": false,
+  "regions": [],
+  "regionSubscriptions": [
+    {
+      "regionId": 1,
+      "subscribed": false
+    },
+    {
+      "regionId": 2,
+      "subscribed": false
+    },
+    {
+      "regionId": 3,
+      "subscribed": false
+    },
+    {
+      "regionId": 4,
+      "subscribed": false
+    },
+    {
+      "regionId": 5,
+      "subscribed": false
+    }
+  ]
+}

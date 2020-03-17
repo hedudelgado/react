@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfileForm Component Renders User Profile Form Component Elements should render the component 1`] = `
+<form
+  data-test="user-profile-form"
+  name="user-profile-form"
+  onSubmit={[MockFunction]}
+>
+  <Select
+    halfWidth={false}
+    hideIcon={false}
+    hideMessage={false}
+    id="title"
+    name="title"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder=""
+  >
+    <option
+      key="Mr"
+      value="Mr"
+    >
+      Mr
+    </option>
+    <option
+      key="Mrs"
+      value="Mrs"
+    >
+      Mrs
+    </option>
+    <option
+      key="Ms"
+      value="Ms"
+    >
+      Ms
+    </option>
+    <option
+      key="Miss"
+      value="Miss"
+    >
+      Miss
+    </option>
+    <option
+      key="Master"
+      value="Master"
+    >
+      Master
+    </option>
+    <option
+      key="Dr"
+      value="Dr"
+    >
+      Dr
+    </option>
+    <option
+      key="Lord"
+      value="Lord"
+    >
+      Lord
+    </option>
+    <option
+      key="Lady"
+      value="Lady"
+    >
+      Lady
+    </option>
+    <option
+      key="Sir"
+      value="Sir"
+    >
+      Sir
+    </option>
+    <option
+      key="Col"
+      value="Col"
+    >
+      Col
+    </option>
+    <option
+      key="Prof"
+      value="Prof"
+    >
+      Prof
+    </option>
+    <option
+      key="Rev"
+      value="Rev"
+    >
+      Rev
+    </option>
+  </Select>
+  <Input
+    id="firstName"
+    mb="wb-push-middle--bottom"
+    name="firstName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    sessioncamhide={true}
+    type="text"
+  />
+  <Input
+    id="lastName"
+    mb="wb-push-middle--bottom"
+    name="lastName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    sessioncamhide={true}
+    type="text"
+  />
+  <Input
+    disabled="disabled"
+    id="email"
+    mb="wb-push-middle--bottom"
+    name="email"
+    sessioncamhide={true}
+    type="text"
+  />
+  <Select
+    flagImg="/content/dam/global/flags/United-Kingdom.png"
+    halfWidth={false}
+    hideIcon={false}
+    hideMessage={false}
+    id="dialingCountryCode"
+    name="dialingCountryCode"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder=""
+    value="GB"
+  >
+    <option
+      key="GB"
+      label="+44"
+      value="GB"
+    >
+      +44
+    </option>
+    <option
+      key="D"
+      label="Germany (+49)"
+      value="D"
+    >
+      Germany (+49)
+    </option>
+    <option
+      key="GR"
+      label="Greece (+30)"
+      value="GR"
+    >
+      Greece (+30)
+    </option>
+    <option
+      key="TEST"
+      label="Test (+499)"
+      value="TEST"
+    >
+      Test (+499)
+    </option>
+  </Select>
+  <Input
+    id="mobile"
+    mb="wb-push-middle--bottom"
+    name="mobile"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    sessioncamhide={true}
+    type="text"
+  />
+  <Input
+    id="telephone"
+    mb="wb-push-middle--bottom"
+    name="telephone"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    sessioncamhide={true}
+    type="text"
+  />
+  <AddressForm
+    countries={
+      Array [
+        Object {
+          "countryCode": "GB",
+          "countryCodeISO": "GB",
+          "countryLegend": "United Kingdom (the)",
+          "dialingCode": "+44",
+          "flagImg": "/content/dam/global/flags/United-Kingdom.png",
+          "passportRequired": false,
+        },
+        Object {
+          "countryCode": "D",
+          "countryCodeISO": "DE",
+          "countryLegend": "Germany",
+          "dialingCode": "+49",
+          "flagImg": "/content/dam/global/flags/Germany.png",
+          "passportRequired": true,
+        },
+        Object {
+          "countryCode": "GR",
+          "countryCodeISO": "GR",
+          "countryLegend": "Greece",
+          "dialingCode": "+30",
+          "flagImg": "/content/dam/global/flags/Greece.png",
+          "passportRequired": true,
+        },
+        Object {
+          "countryCode": "TEST",
+          "countryCodeISO": "TEST",
+          "countryLegend": "Test",
+          "dialingCode": "+499",
+          "flagImg": "test.png",
+          "passportRequired": true,
+        },
+      ]
+    }
+    dictionary={
+      Object {
+        "profile.form.guesttitle.list": "Mr,Mrs,Ms,Miss,Master,Dr,Lord,Lady,Sir,Col,Prof,Rev",
+      }
+    }
+    errors={Object {}}
+    handleBlur={[MockFunction]}
+    handleChange={[MockFunction]}
+    profile={
+      Object {
+        "contactDetail": Object {
+          "address": Object {
+            "companyName": "",
+            "countryCode": "D",
+            "line1": "Random house",
+            "line2": "Random street",
+            "line3": "",
+            "line4": "LONDON",
+            "postCode": "EC1N 3TD",
+            "type": "HOME",
+          },
+          "carRegistration": "",
+          "email": "test@whitbread.com",
+          "firstName": "Test",
+          "lastName": "testing",
+          "mobile": "+4900000000000",
+          "nationality": "GB",
+          "passport": Object {
+            "countryOfIssue": "",
+            "number": "",
+          },
+          "telephone": "11111111111",
+          "title": "Miss",
+        },
+      }
+    }
+    setFieldValue={[MockFunction]}
+    touched={Object {}}
+    values={
+      Object {
+        "dialingCountryCode": "GB",
+      }
+    }
+  />
+  <Button
+    className="wb-push--bottom"
+    color="primary"
+    data-test="save-changes"
+    fullWidth={false}
+    href={null}
+    onClick={[Function]}
+    submit={false}
+    type="submit"
+    variant="button"
+  />
+  <Button
+    className="underline block"
+    color="default"
+    data-test="closeForm"
+    fullWidth={true}
+    href={null}
+    onClick={[Function]}
+    submit={false}
+    variant="text"
+  />
+</form>
+`;

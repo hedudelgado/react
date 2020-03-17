@@ -1,0 +1,5 @@
+{
+  "apiURL": "https://api-uat.whitbread.co.uk",
+  "domain": "https://www.premierinn.com",
+  "tetheringUrl": "https://develop--pi-account-tethering.netlify.com"
+}

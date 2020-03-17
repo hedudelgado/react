@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup Component Renders RadioGroup Element should render the component 1`] = `
+<div
+  className="wb-form-item fixed-size mb3 wb-form-item--clean max-fit"
+>
+  <ul
+    className="wb-radio__group"
+  >
+    <RadioItem
+      id="first"
+      key="true"
+      label="test label"
+      name="test"
+      subLabels={Array []}
+      value="true"
+    />
+    <RadioItem
+      id="second"
+      key="false"
+      label="test label"
+      name="test"
+      subLabels={Array []}
+      value="false"
+    />
+  </ul>
+</div>
+`;

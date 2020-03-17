@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegularGuest Component Renders RegularGuest Component Elements should match snapshot 1`] = `
+<BaseStyle
+  component="address"
+  mb="3"
+>
+  <Typography
+    component="span"
+  >
+    Mr Mac Donalds
+  </Typography>
+  <Typography
+    component="span"
+  >
+    mac@test.com
+  </Typography>
+  <Button
+    className="wb-text-btn--underline block mt2 mb2"
+    color="red"
+    fullWidth={false}
+    href={null}
+    id="delete-guest-1"
+    onClick={[Function]}
+    submit={false}
+    variant="text"
+  >
+    Delete guest 2
+  </Button>
+  <Button
+    color="quaternary"
+    data-test="edit-guest-1"
+    fullWidth={false}
+    href={null}
+    onClick={[Function]}
+    submit={false}
+    variant="button"
+  >
+    Edit guest 2
+  </Button>
+</BaseStyle>
+`;

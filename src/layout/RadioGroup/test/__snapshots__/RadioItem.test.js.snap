@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioItem Component Renders RadioItem Element should render the component 1`] = `
+<li
+  className="wb-radio__inner"
+>
+  <label
+    className="wb-radio__label"
+    htmlFor="test"
+  >
+    <input
+      checked={false}
+      className=""
+      id="test"
+      name="test"
+      type="radio"
+      value="true"
+    />
+    <span
+      className="wb-radio__label__inner"
+    >
+      <span
+        className="wb-radio__label__inner__title"
+      >
+        This is my test label
+      </span>
+      <span
+        className="wb-radio__label__inner-info"
+        key="test sub label 1"
+      >
+        test sub label 1
+      </span>
+      <span
+        className="wb-radio__label__inner-info"
+        key="test sub label 2"
+      >
+        test sub label 2
+      </span>
+    </span>
+  </label>
+</li>
+`;
